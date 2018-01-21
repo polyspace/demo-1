@@ -1,0 +1,20 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DELETE_VOID</checker>
+<type>delete_void</type>
+<subtype>void_pointer</subtype>
+<file>D:/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
+<merge_with_lowercase_file>true</merge_with_lowercase_file>
+<function>_ZNSt5ctypeIcE5_TidyEv</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>delete_void</tag>
+<description>{CovLStrv2{{t{Operator 'delete', applied to void* argument {0}, has undefined behavior, and most likely does not invoke the object's destructor.}{{code{(void *)this-&gt;_Ctype._Table}}}}}}</description>
+<line>1816</line>
+</event>
+<extra>_Ctype,_Table,this</extra>
+<subcategory>none</subcategory>
+</error>

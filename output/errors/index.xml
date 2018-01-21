@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+<title>Coverity Errors</title>
+<error>
+<checker>DELETE_VOID</checker>
+<file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
+<function>_ZNSt5ctypeIcE5_TidyEv</function>
+<unmangled_function>std::ctype&lt;char&gt;::_Tidy()</unmangled_function>
+<status>Unclassified</status>
+<num>1</num>
+<home>1/1xlocale</home>
+</error>
+<error>
+<checker>NO_EFFECT</checker>
+<file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
+<function>_ZNKSt5ctypeIwE11_Do_widen_sEPKcS2_Pwj</function>
+<unmangled_function>std::ctype&lt;wchar_t&gt;::_Do_widen_s(char const *, char const *, wchar_t *, unsigned int) const</unmangled_function>
+<status>Unclassified</status>
+<num>2</num>
+<home>1/2xlocale</home>
+</error>
+<error>
+<checker>NO_EFFECT</checker>
+<file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
+<function>_ZNKSt5ctypeIwE12_Do_narrow_sEPKwS2_cPcj</function>
+<unmangled_function>std::ctype&lt;wchar_t&gt;::_Do_narrow_s(wchar_t const *, wchar_t const *, char, char *, unsigned int) const</unmangled_function>
+<status>Unclassified</status>
+<num>3</num>
+<home>1/3xlocale</home>
+</error>
+<error>
+<checker>NO_EFFECT</checker>
+<file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
+<function>_ZNKSt5ctypeIcE11_Do_widen_sEPKcS2_Pcj</function>
+<unmangled_function>std::ctype&lt;char&gt;::_Do_widen_s(char const *, char const *, char *, unsigned int) const</unmangled_function>
+<status>Unclassified</status>
+<num>4</num>
+<home>1/4xlocale</home>
+</error>
+<error>
+<checker>NO_EFFECT</checker>
+<file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
+<function>_ZNKSt5ctypeIcE12_Do_narrow_sEPKcS2_cPcj</function>
+<unmangled_function>std::ctype&lt;char&gt;::_Do_narrow_s(char const *, char const *, char, char *, unsigned int) const</unmangled_function>
+<status>Unclassified</status>
+<num>5</num>
+<home>1/5xlocale</home>
+</error>
+<error>
+<checker>NO_EFFECT</checker>
+<file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
+<function>_ZNKSt5ctypeItE11_Do_widen_sEPKcS2_Ptj</function>
+<unmangled_function>std::ctype&lt;unsigned short&gt;::_Do_widen_s(char const *, char const *, unsigned short *, unsigned int) const</unmangled_function>
+<status>Unclassified</status>
+<num>6</num>
+<home>1/6xlocale</home>
+</error>
+<error>
+<checker>NO_EFFECT</checker>
+<file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
+<function>_ZNKSt5ctypeItE12_Do_narrow_sEPKtS2_cPcj</function>
+<unmangled_function>std::ctype&lt;unsigned short&gt;::_Do_narrow_s(unsigned short const *, unsigned short const *, char, char *, unsigned int) const</unmangled_function>
+<status>Unclassified</status>
+<num>7</num>
+<home>1/7xlocale</home>
+</error>
+</coverity>

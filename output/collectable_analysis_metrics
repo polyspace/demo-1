@@ -1,0 +1,125 @@
+{
+  "cov-analyze" : {
+    "command-line-options" : {
+      args : [
+        "dir",
+        "concurrency",
+        "enable-constraint-fpp",
+        "jobs",
+        "config",
+        "CODEXM:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_PASS0:enable-builtin-checkers",
+        "CODEXM_FUNCTIONS_PASS1:enable-builtin-checkers",
+        "OVERRUN:report_underrun"
+      ]
+    },
+    time : 5,
+    "line-counts" : {
+      "C/C++" : {
+        "blank-lines" : 38710,
+        "code-lines" : 133251,
+        "comment-lines" : 54524
+      },
+      Java : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "C#" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      JavaScript : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      "Objective-C/C++" : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      PHP : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      Python : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      },
+      Ruby : {
+        "blank-lines" : 0,
+        "code-lines" : 0,
+        "comment-lines" : 0
+      }
+    },
+    "file-statistics-by-extension" : {
+      "<none>" : {
+        files : 26,
+        "total-bytes" : 499858
+      },
+      cpp : {
+        files : 1,
+        "total-bytes" : 209
+      },
+      h : {
+        files : 99,
+        "total-bytes" : 6425761
+      },
+      inl : {
+        files : 2,
+        "total-bytes" : 5102
+      }
+    },
+    ident : "8.7.1 (build a59584cec3 p-lodi1-push-28091.44.570)",
+    platform : "Windows 7 Ultimate, 64-bit, Service Pack 1 (build 7601)",
+    "short-platform" : "win64",
+    extver : "8.7.1",
+    intver : "a59584cec3 p-lodi1-push-28091.44.570",
+    "aw-peak-mem-bytes" : 23494656,
+    "am+aw-peak-mem-bytes" : 48799744,
+    "bytecode-functions" : 0,
+    concurrency : true,
+    cxx : true,
+    "enable-parse-warnings" : false,
+    failures : 0,
+    "files-analyzed" : 23,
+    force : false,
+    "function-metrics-count" : 187,
+    "functions-analyzed" : 187,
+    "incremental-hits" : 0,
+    "incremental-misses" : 565,
+    "dyncg-sites-resolved" : 0,
+    "dyncg-sites-total" : 0,
+    "max-mem" : 512,
+    "memout-count" : 0,
+    "pathout-count" : 0,
+    paths : 5000,
+    "paths-analyzed" : 885,
+    "peak-mem-bytes" : 28934144,
+    security : true,
+    "tus-count" : 1,
+    "web-app-archives" : 0,
+    "string-graph-nodes" : 0,
+    "web-app-entry-points" : 0,
+    "web-app-views-unused" : 0,
+    "ta.code_age_thresholds" : "0, 0",
+    "enabled-checkers" : "ARRAY_VS_SINGLETON ASSERT_SIDE_EFFECT ATOMICITY BAD_ALLOC_ARITHMETIC BAD_ALLOC_STRLEN BAD_CHECK_OF_WAIT_COND BAD_COMPARE BAD_FREE BAD_LOCK_OBJECT BAD_OVERRIDE BAD_SIZEOF CALL_SUPER CHAR_IO CHECKED_RETURN COM.BAD_FREE COM.BSTR.CONV CONSTANT_EXPRESSION_RESULT COPY_PASTE_ERROR CTOR_DTOR_LEAK DEADCODE DELETE_ARRAY DELETE_VOID EVALUATION_ORDER EXPLICIT_THIS_EXPECTED FB.* FORWARD_NULL GUARDED_BY_VIOLATION IDENTICAL_BRANCHES IDENTIFIER_TYPO INFINITE_LOOP INVALIDATE_ITERATOR LOCK LOCK_EVASION LOCK_INVERSION MISSING_BREAK MISSING_LOCK MISSING_RETURN NEGATIVE_RETURNS NESTING_INDENT_MISMATCH NON_STATIC_GUARDING_STATIC NO_EFFECT NULL_RETURNS ORDER_REVERSAL OVERFLOW_BEFORE_WIDEN OVERRUN PASS_BY_VALUE READLINK RESOURCE_LEAK RETURN_LOCAL REVERSE_INULL REVERSE_NEGATIVE SIGN_EXTENSION SIZEOF_MISMATCH SLEEP STRAY_SEMICOLON STREAM_FORMAT_STATE SWAPPED_ARGUMENTS UNCAUGHT_EXCEPT UNINIT UNINIT_CTOR UNINTENDED_GLOBAL UNINTENDED_INTEGER_DIVISION UNREACHABLE UNUSED_VALUE USE_AFTER_FREE VARARGS VOLATILE_ATOMICITY WRAPPER_ESCAPE",
+    "DELETE_VOID-new-defect-count" : 1,
+    "NO_EFFECT-new-defect-count" : 6,
+    "total-new-defect-count" : 7,
+    "total-input-files" : -1,
+    "matching-input-files" : -1
+  },
+  "cov-build" : {
+    "build-successes" : 1,
+    "builds-with-recoverable-errors" : 0,
+    "build-failures" : 0,
+    "cs-webapps-detected" : 0,
+    "cs-webapp-successes" : 0,
+    "cs-webapp-compilation-secs" : 0
+  }
+}

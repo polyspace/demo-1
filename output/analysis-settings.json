@@ -1,0 +1,14 @@
+{
+  covAnalyzeArgs : [
+    "--fb-include",
+    "coverity-default",
+    "--concurrency",
+    "--enable-constraint-fpp",
+    "-co",
+    "CODEXM:enable-builtin-checkers",
+    "-co",
+    "OVERRUN:report_underrun:yes"
+  ],
+  fileOptions : [],
+  fileCheckerOptions : []
+}

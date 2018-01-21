@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+<title>Coverity Errors</title>
+<error>
+<checker>DELETE_VOID</checker>
+<file>nil</file>
+<function>nil</function>
+<num>1</num>
+</error>
+<error>
+<checker>NO_EFFECT</checker>
+<file>nil</file>
+<function>nil</function>
+<num>6</num>
+</error>
+<error>
+<checker>Total</checker>
+<file>nil</file>
+<function>nil</function>
+<num>7</num>
+</error>
+</coverity>
