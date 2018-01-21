@@ -2138,17 +2138,7 @@
 <b><a name="line2134">2134 </a></b>			{	// widen chars in [_First, _Last)
 <b><a name="line2135">2135 </a></b>			_DEBUG_RANGE(_First, _Last);
 <b><a name="line2136">2136 </a></b>			_DEBUG_POINTER(_Dest);
-</pre>
-<table summary="events" bgcolor=#e0e0e0>
-<tr><td><font color="red">
-<a name="error:0"></a>
-<a name="error"></a>
-<!-- merge-key d04230dd558bc82a5a84972148263855 -->
-<b>(1) Event extra_comma</b>: </font></td>
-<td><font color="red">Part &quot;&quot;_Dest_size &gt;= (size_t)(_Last - _First)&quot;&quot; of statement &quot;&quot;_Dest_size &gt;= (size_t)(_Last - _First)&quot; , 0&quot; has no effect due to the comma.</font></td>
-</tr>
-</table>
-<pre><b><a name="line2137">2137 </a></b>			_SCL_SECURE_ALWAYS_VALIDATE_RANGE(_Dest_size &gt;= (size_t)(_Last - _First));
+<b><a name="line2137">2137 </a></b>			_SCL_SECURE_ALWAYS_VALIDATE_RANGE(_Dest_size &gt;= (size_t)(_Last - _First));
 <b><a name="line2138">2138 </a></b>			for (; _First != _Last; ++_First, ++_Dest)
 <b><a name="line2139">2139 </a></b>				*_Dest = _Dowiden(*_First);
 <b><a name="line2140">2140 </a></b>			return (_First);
@@ -2183,7 +2173,17 @@
 <b><a name="line2169">2169 </a></b>			{	// narrow elements in [_First, _Last) to chars
 <b><a name="line2170">2170 </a></b>			_DEBUG_RANGE(_First, _Last);
 <b><a name="line2171">2171 </a></b>			_DEBUG_POINTER(_Dest);
-<b><a name="line2172">2172 </a></b>			_SCL_SECURE_ALWAYS_VALIDATE_RANGE(_Dest_size &gt;= (size_t)(_Last - _First));
+</pre>
+<table summary="events" bgcolor=#e0e0e0>
+<tr><td><font color="red">
+<a name="error:0"></a>
+<a name="error"></a>
+<!-- merge-key a9857a213021e4d5cc89e3e16b1314ce -->
+<b>(1) Event extra_comma</b>: </font></td>
+<td><font color="red">Part &quot;&quot;_Dest_size &gt;= (size_t)(_Last - _First)&quot;&quot; of statement &quot;&quot;_Dest_size &gt;= (size_t)(_Last - _First)&quot; , 0&quot; has no effect due to the comma.</font></td>
+</tr>
+</table>
+<pre><b><a name="line2172">2172 </a></b>			_SCL_SECURE_ALWAYS_VALIDATE_RANGE(_Dest_size &gt;= (size_t)(_Last - _First));
 <b><a name="line2173">2173 </a></b>			for (; _First != _Last; ++_First, ++_Dest)
 <b><a name="line2174">2174 </a></b>				*_Dest = _Donarrow(*_First, _Dflt);
 <b><a name="line2175">2175 </a></b>			return (_First);

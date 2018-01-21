@@ -5,7 +5,7 @@
 <metrics>
     <metric>
         <name>time</name>
-        <value>5</value>
+        <value>4</value>
     </metric>
     <metric>
         <name>args</name>
@@ -53,15 +53,15 @@
     </metric>
     <metric>
         <name>peak-mem-bytes</name>
-        <value>28934144</value>
+        <value>28262400</value>
     </metric>
     <metric>
         <name>aw-peak-mem-bytes</name>
-        <value>23494656</value>
+        <value>20754432</value>
     </metric>
     <metric>
         <name>am+aw-peak-mem-bytes</name>
-        <value>48799744</value>
+        <value>42729472</value>
     </metric>
     <metric>
         <name>files-analyzed</name>
@@ -133,11 +133,11 @@
     </metric>
     <metric>
         <name>incremental-misses</name>
-        <value>565</value>
+        <value>5</value>
     </metric>
     <metric>
         <name>incremental-hits</name>
-        <value>0</value>
+        <value>560</value>
     </metric>
     <metric>
         <name>dyncg-sites-resolved</name>
@@ -177,7 +177,7 @@
     </metric>
     <metric>
         <name>code-version-date</name>
-        <value>1516538275</value>
+        <value>1516539998</value>
     </metric>
     <metric>
         <name>cxx</name>

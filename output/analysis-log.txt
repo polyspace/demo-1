@@ -7,7 +7,7 @@ cmdline:   { name: "checker-option", args: [ "OVERRUN:report_underrun:yes" ] },
 cmdline:   { name: "jobs", args: [ "auto" ] },
 cmdline:   { name: "config", args: [ "D:\\Coverity\\Coverity Static Analysis\\config\\coverity_config.xml" ] },
 cmdline: ]
-startup: am_pid=732
+startup: am_pid=4040
 startup: detected platform: Windows 7 Ultimate, 64-bit, Service Pack 1 (build 7601)
 startup: target platform: win64
 startup: Detected 4 logical cpus
@@ -15,9 +15,9 @@ startup: Detected 2 cpu cores
 startup: host name: LEE
 startup: user name: SYSTEM
 startup: Analysis version: 8.7.1 (a59584cec3 p-lodi1-push-28091.44.570)
-startup: temp directory: C:/Windows/TEMP/cov-SYSTEM/c530e4725f834076f18285a0a5f70d03
+startup: temp directory: C:/Windows/TEMP/cov-SYSTEM/823c1bf3cefec1c5ec81de171cedcc63
 startup: enable_constraint_fpp=1
-startup: current time: 2018-Jan-21 20:39:26
+startup: current time: 2018-Jan-21 21:07:06
 startup: Detected amount of memory: 16190804kb
 startup: Limiting memory to 14571723kb
 wlink: Skipping web-app linking, no archives
@@ -29,222 +29,14 @@ emitdb: callgraph.cpp:2767 11000000
 dyncg: N/A or no data
 directives: Optimizing dataflow configuration
 general: Starting analysis
-dm-access-lib: AM listening for DM at 127.0.0.1:49350
-dm-access-lib: AM starting DM with command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 49350 --log-file D:/Projects/demo-1/output/distributor.log -j 4 --AW-timeout 36000 D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
-dm-access-lib: DM started: dm_pid=6984
-dm-access-lib: AM got connection from DM: (local) 127.0.0.1:49350 - 127.0.0.1:49351 (remote)
+dm-access-lib: AM listening for DM at 127.0.0.1:49712
+dm-access-lib: AM starting DM with command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 49712 --log-file D:/Projects/demo-1/output/distributor.log -j 4 --AW-timeout 36000 D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=2940
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:49712 - 127.0.0.1:49713 (remote)
 wurlegend: <phase><n> dw_id wup_bytes dw_ms wur_bytes aw_ms [mem] paths (rest are labeled)
-wur: stat2 1 3916 1092 63 0 mem=19099648 max=20742144 7 nr=5 n: batch 2
-wur: stat5 1 23400 16 484 0 41 nr=20 n: batch 5
-wur: stat7 1 23330 31 584 15 59 nr=20 n: batch 7
-wur: stat4 1 23415 16 504 16 47 nr=20 n: batch 4
-wur: stat12 1 5834 15 510 0 23 nr=2 n: batch 12
-wur: stat6 2 26488 1076 697 31 mem=19410944 max=21053440 67 nr=20 n: batch 6
-wur: stat10 2 25962 16 717 16 39 nr=20 n: batch 10
-wur: stat11 3 18179 1045 110 0 mem=19361792 max=21004288 24 nr=20 n: batch 11
-wur: stat9 3 21973 16 521 0 38 nr=20 n: batch 9
-wur: stat8 4 21974 1217 540 0 mem=19460096 max=21098496 56 nr=20 n: batch 8
-wur: stat3 4 20717 0 277 0 39 nr=20 n: batch 3
-wur: conc158 1 1174 15 344 0 1 n: _ZNSt9bad_allocD9Ev in TU 1
-wur: conc172 1 2171 16 1127 0 1 n: _ZNSt11char_traitsIcE7_Copy_sEPcjPKcj in TU 1
-wur: conc169 2 1760 0 629 0 2 n: _ZNSs6_MyptrEv in TU 1
-wur: conc170 3 1299 0 695 0 1 n: _ZNSt11char_traitsIcE6assignERcRKc in TU 1
-wur: conc174 4 1449 16 81 0 1 n: _ZSt16_Char_traits_catISt11char_traitsIcEENSt21_Char_traits_categoryIT_E19_Secure_char_traitsEv in TU 1
-wur: conc55 1 1233 0 292 0 2 n: _ZNKSaIcE8max_sizeEv in TU 1
-wur: conc157 2 1703 0 532 0 1 n: _ZNSaIcE10deallocateEPcj in TU 1
-wur: conc67 3 1673 46 910 46 4 n: _ZNKSt22_Container_base_secure11_Orphan_allEv in TU 1
-wur: conc179 4 2156 15 1126 0 1 n: _ZNSt11char_traitsIcE7_Move_sEPcjPKcj in TU 1
-wur: conc57 3 1589 0 472 0 1 n: _ZNKSs4sizeEv in TU 1
-wur: conc68 4 1261 0 679 0 2 n: _ZSt14_Debug_pointerIcEvPKT_PKwj in TU 1
-wur: conc149 3 1499 0 437 0 1 n: _ZNKSt8ios_base7rdstateEv in TU 1
-wur: conc156 4 1961 0 465 0 1 n: _ZNKSt9basic_iosIcSt11char_traitsIcEE5rdbufEv in TU 1
-wur: conc159 3 1736 0 414 0 1 n: _ZNSt9bad_allocC9EPKc in TU 1
-wur: conc168 4 1554 0 472 0 1 n: _ZNSt15basic_streambufIcSt11char_traitsIcEE7pubsyncEv in TU 1
-wur: conc162 1 1116 16 255 0 1 n: _ZNSaIcEC9ERKS_ in TU 1
-wur: conc58 2 1780 16 496 0 2 n: _ZNKSs6_MyptrEv in TU 1
-wur: conc152 3 1541 0 441 0 1 n: _ZNKSt8ios_base5flagsEv in TU 1
-wur: conc164 4 1548 0 513 0 1 n: _ZNSt15basic_streambufIcSt11char_traitsIcEE7_UnlockEv in TU 1
-wur: conc186 1 1554 0 455 0 1 n: _ZNSt11char_traitsIcE6lengthEPKc in TU 1
-wur: conc163 2 1103 0 81 0 1 n: _ZNSaIcEC9Ev in TU 1
-wur: conc166 3 1544 0 512 0 1 n: _ZNSt15basic_streambufIcSt11char_traitsIcEE5_LockEv in TU 1
-wur: conc84 4 1320 16 709 16 2 n: _ZSt14_Debug_pointerItEvPKT_PKwj in TU 1
-wur: conc212 1 1519 0 443 0 1 n: _ZNSt15basic_streambufIcSt11char_traitsIcEE6_PnincEv in TU 1
-wur: conc94 2 1307 16 698 16 2 n: _ZSt14_Debug_pointerItEvPT_PKwj in TU 1
-wur: conc107 1 1319 0 702 0 2 n: _ZSt14_Debug_pointerIwEvPKT_PKwj in TU 1
-wur: conc217 2 1104 0 233 0 1 n: _ZNSt6locale5facetD9Ev in TU 1
-wur: conc211 4 1272 0 464 0 1 n: _ZNSt11char_traitsIcE11to_int_typeERKc in TU 1
-wur: conc154 1 1933 0 460 0 1 n: _ZNKSt9basic_iosIcSt11char_traitsIcEE3tieEv in TU 1
-wur: conc155 2 1882 0 462 0 1 n: _ZNKSt9basic_iosIcSt11char_traitsIcEE4fillEv in TU 1
-wur: conc76 3 1256 0 680 0 2 n: _ZSt14_Debug_pointerIcEvPT_PKwj in TU 1
-wur: conc70 1 1387 0 257 0 1 n: _ZSt9_Iter_catIPKcENSt15iterator_traitsIT_E17iterator_categoryERKS3_ in TU 1
-wur: conc237 2 1593 0 753 0 1 n: _ZNSt8ios_base5widthEi in TU 1
-wur: conc117 3 1307 15 694 0 2 n: _ZSt14_Debug_pointerIwEvPT_PKwj in TU 1
-wur: conc66 4 1567 15 540 0 2 n: _ZNKSt15basic_streambufIcSt11char_traitsIcEE8_PnavailEv in TU 1
-wur: conc210 1 1161 0 240 0 1 n: _ZNSt11char_traitsIcE3eofEv in TU 1
-wur: conc209 2 1234 15 653 15 2 n: _ZNSt11char_traitsIcE11eq_int_typeERKiS2_ in TU 1
-wur: conc230 4 1655 0 718 0 1 n: _ZNSt15basic_streambufIcSt11char_traitsIcEE5sputnEPKci in TU 1
-wur: conc56 1 1174 0 472 0 1 n: _ZNKSo6sentrycvbEv in TU 1
-wur: conc109 2 1446 0 281 0 1 n: _ZSt9_Iter_catIPKwENSt15iterator_traitsIT_E17iterator_categoryERKS3_ in TU 1
-wur: conc153 1 1533 0 435 0 1 n: _ZNKSt8ios_base5widthEv in TU 1
-wur: conc144 2 1437 0 279 0 1 n: _ZSt9_Iter_catIPwENSt15iterator_traitsIT_E17iterator_categoryERKS2_ in TU 1
-wur: conc222 3 2222 16 371 0 3 n: _ZNSt5ctypeIcE5_TidyEv in TU 1
-wur: conc215 4 1324 16 756 16 2 n: _ZSt14_Debug_pointerIFRSoS0_EEvPT_PKwj in TU 1
-wur: conc173 1 2469 0 1299 0 1 n: _ZNSt14_Traits_helper6copy_sISt11char_traitsIcEEEPNT_9char_typeES5_jPKS4_jSt23_Secure_char_traits_tag in TU 1
-wur: conc129 2 1378 16 256 16 1 n: _ZSt9_Iter_catIPcENSt15iterator_traitsIT_E17iterator_categoryERKS2_ in TU 1
-wur: conc135 3 1437 0 285 0 1 n: _ZSt9_Iter_catIPtENSt15iterator_traitsIT_E17iterator_categoryERKS2_ in TU 1
-wur: conc86 4 1446 0 287 0 1 n: _ZSt9_Iter_catIPKtENSt15iterator_traitsIT_E17iterator_categoryERKS3_ in TU 1
-wur: conc184 1 2415 15 749 15 10 n: _ZNSs7_InsideEPKc in TU 1
-wur: conc106 2 1777 0 575 0 1 n: _ZNKSt5ctypeIwE2isEsw in TU 1
-wur: conc93 3 1902 15 339 0 2 n: _ZNKSt5ctypeItE8_DowidenEc in TU 1
-wur: conc120 4 1881 0 603 0 2 n: _ZNKSt5ctypeIwE9_DonarrowEwc in TU 1
-wur: conc99 1 1311 0 696 0 2 n: _ZSt14_Debug_pointerIsEvPT_PKwj in TU 1
-wur: conc83 2 1776 0 580 0 1 n: _ZNKSt5ctypeItE2isEst in TU 1
-wur: conc79 1 1755 0 639 0 1 n: _ZNKSt5ctypeIcE8do_widenEPKcS2_Pc in TU 1
-wur: conc141 2 1490 0 293 0 1 n: _ZNKSt7codecvtIwciE13do_max_lengthEv in TU 1
-wur: conc97 4 1885 0 610 0 2 n: _ZNKSt5ctypeItE9_DonarrowEtc in TU 1
-wur: conc82 1 1560 0 368 0 1 n: _ZNKSt5ctypeIcE9do_narrowEcc in TU 1
-wur: conc73 2 1689 16 343 16 1 n: _ZNKSt5ctypeIcE10do_tolowerEc in TU 1
-wur: conc116 3 1896 16 332 0 2 n: _ZNKSt5ctypeIwE8_DowidenEc in TU 1
-wur: conc126 1 1932 0 674 0 1 n: _ZNKSt5ctypeIwE9do_narrowEPKwS2_cPc in TU 1
-wur: conc113 2 1763 0 348 0 1 n: _ZNKSt5ctypeIwE10do_tolowerEw in TU 1
-wur: conc101 3 1870 0 450 0 2 n: _ZNKSt5ctypeItE5do_isEst in TU 1
-wur: conc102 4 1833 16 650 16 1 n: _ZNKSt5ctypeItE8do_widenEPKcS2_Pt in TU 1
-wur: conc171 1 3255 16 834 0 4 n: _ZNSs4_EosEj in TU 1
-wur: conc62 2 1241 0 276 0 1 n: _ZNKSt12codecvt_base11do_encodingEv in TU 1
-wur: conc90 4 1772 0 352 0 1 n: _ZNKSt5ctypeItE10do_tolowerEt in TU 1
-wur: conc80 1 1531 0 356 0 1 n: _ZNKSt5ctypeIcE8do_widenEc in TU 1
-wur: conc124 2 1833 0 642 0 1 n: _ZNKSt5ctypeIwE8do_widenEPKcS2_Pw in TU 1
-wur: conc81 4 1842 0 668 0 1 n: _ZNKSt5ctypeIcE9do_narrowEPKcS2_cPc in TU 1
-wur: conc75 1 1689 0 343 0 1 n: _ZNKSt5ctypeIcE10do_toupperEc in TU 1
-wur: conc228 2 1184 0 342 0 1 n: _ZNSt13bad_exceptionD9Ev in TU 1
-wur: conc142 2 1481 0 293 0 1 n: _ZNKSt7codecvtIwciE16do_always_noconvEv in TU 1
-wur: conc115 1 1763 15 347 0 1 n: _ZNKSt5ctypeIwE10do_toupperEw in TU 1
-wur: conc132 2 1490 0 298 0 1 n: _ZNKSt7codecvtItciE13do_max_lengthEv in TU 1
-wur: conc63 3 1243 0 279 0 1 n: _ZNKSt12codecvt_base13do_max_lengthEv in TU 1
-wur: conc123 4 1869 15 445 0 2 n: _ZNKSt5ctypeIwE5do_isEsw in TU 1
-wur: conc104 1 1929 0 679 0 1 n: _ZNKSt5ctypeItE9do_narrowEPKtS2_cPc in TU 1
-wur: conc64 2 1246 0 280 0 1 n: _ZNKSt12codecvt_base16do_always_noconvEv in TU 1
-wur: conc133 3 1481 0 299 0 1 n: _ZNKSt7codecvtItciE16do_always_noconvEv in TU 1
-wur: conc92 2 1772 0 352 0 1 n: _ZNKSt5ctypeItE10do_toupperEt in TU 1
-wur: conc238 1 1476 0 350 0 1 n: _ZNSt8ios_baseD9Ev in TU 1
-wur: conc188 2 1838 0 650 0 4 n: _ZNSt22_Container_base_secureD9Ev in TU 1
-wur: conc60 1 2182 16 471 0 2 n: _ZNKSs8max_sizeEv in TU 1
-wur: conc160 1 3387 0 897 0 7 n: _ZSt9_AllocateIcEPT_jS1_ in TU 1
-wur: conc180 2 2469 16 1298 16 1 n: _ZNSt14_Traits_helper6move_sISt11char_traitsIcEEEPNT_9char_typeES5_jPKS4_jSt23_Secure_char_traits_tag in TU 1
-wur: conc165 2 3402 0 539 0 2 n: _ZNSo12_Sentry_baseD9Ev in TU 1
-wur: conc59 1 2174 0 507 0 4 n: _ZNKSs5c_strEv in TU 1
-wur: conc218 2 1396 0 333 0 1 n: _ZNSt10ctype_baseD9Ev in TU 1
-wur: conc134 1 2380 0 720 0 6 n: _ZSt13_Debug_range2IPtEvT_S1_PKwjSt26random_access_iterator_tag in TU 1
-wur: conc108 2 2331 0 719 0 6 n: _ZSt13_Debug_range2IPKwEvT_S2_S1_jSt26random_access_iterator_tag in TU 1
-wur: conc128 1 2267 0 672 0 6 n: _ZSt13_Debug_range2IPcEvT_S1_PKwjSt26random_access_iterator_tag in TU 1
-wur: conc69 3 2274 31 673 16 6 n: _ZSt13_Debug_range2IPKcEvT_S2_PKwjSt26random_access_iterator_tag in TU 1
-wur: conc221 2 1400 15 333 15 1 n: _ZNSt12codecvt_baseD9Ev in TU 1
-wur: conc150 4 2190 15 457 0 2 n: _ZNKSt8ios_base4failEv in TU 1
-wur: conc151 3 2107 0 493 0 2 n: _ZNKSt8ios_base4goodEv in TU 1
-wur: conc85 4 2332 16 723 16 6 n: _ZSt13_Debug_range2IPKtEvT_S2_PKwjSt26random_access_iterator_tag in TU 1
-wur: conc175 1 2969 16 1312 16 1 n: _ZNSt14_Traits_helper6copy_sISt11char_traitsIcEEEPNT_9char_typeES5_jPKS4_j in TU 1
-wur: conc161 1 2070 0 750 0 1 n: _ZNSaIcE8allocateEj in TU 1
-wur: conc189 1 1781 0 639 0 4 n: _ZNSt12_String_baseD9Ev in TU 1
-wur: conc192 3 1836 0 407 0 1 n: _ZNSt22_Container_base_secureC9Ev in TU 1
-wur: conc181 1 2969 0 1311 0 1 n: _ZNSt14_Traits_helper6move_sISt11char_traitsIcEEEPNT_9char_typeES5_jPKS4_j in TU 1
-wur: conc190 3 2053 15 673 15 4 n: _ZNSt11_String_valIcSaIcEED9Ev in TU 1
-wur: conc176 2 4718 15 1705 15 9 n: _ZNSs5_TidyEbj in TU 1
-wur: conc193 1 2964 0 489 0 1 n: _ZNSt12_String_baseC9Ev in TU 1
-wur: conc191 3 3793 16 911 0 5 n: _ZNSsD9Ev in TU 1
-wur: conc196 3 3943 0 1006 0 2 n: _ZNSt11_String_valIcSaIcEEC9ERKS1_ in TU 1
-wur: conc182 1 4933 16 1437 16 20 n: _ZNSs5eraseEjj in TU 1
-wur: conc198 1 2102 0 521 0 1 n: _ZNSt13runtime_errorD9Ev in TU 1
-wur: conc194 1 3753 0 607 0 1 n: _ZNSt11_String_valIcSaIcEEC9ES0_ in TU 1
-wur: conc200 3 2268 0 546 0 1 n: _ZNSt8ios_base7failureD9Ev in TU 1
-wur: conc167 1 3856 0 740 0 2 n: _ZNSo12_Sentry_baseC9ERSo in TU 1
-wur: conc177 2 7602 47 1732 47 13 n: _ZNSs5_CopyEjj in TU 1
-wur: conc143 3 2381 15 707 15 6 n: _ZSt13_Debug_range2IPwEvT_S1_PKwjSt26random_access_iterator_tag in TU 1
-wur: conc213 1 3608 0 561 0 3 n: _ZNSt15basic_streambufIcSt11char_traitsIcEE5sputcEc in TU 1
-wur: conc216 1 3484 0 626 0 2 n: _ZNSolsEPFRSoS_E in TU 1
-wur: conc219 3 2098 0 517 0 1 n: _ZNSt11logic_errorD9Ev in TU 1
-wur: conc145 1 2583 0 730 0 1 n: _ZSt12_Debug_rangeIPwEvT_S1_PKwj in TU 1
-wur: conc223 3 1962 0 353 0 1 n: _ZNSt5ctypeIcED9Ev in TU 1
-wur: conc87 1 2593 0 750 0 1 n: _ZSt12_Debug_rangeIPKtEvT_S2_PKwj in TU 1
-wur: conc130 3 2524 0 701 0 1 n: _ZSt12_Debug_rangeIPcEvT_S1_PKwj in TU 1
-wur: conc71 1 2536 0 704 0 1 n: _ZSt12_Debug_rangeIPKcEvT_S2_PKwj in TU 1
-wur: conc136 1 2582 0 743 0 1 n: _ZSt12_Debug_rangeIPtEvT_S1_PKwj in TU 1
-wur: conc110 3 2594 16 741 0 1 n: _ZSt12_Debug_rangeIPKwEvT_S2_S1_j in TU 1
-wur: conc127 1 2153 16 651 16 4 n: _ZNKSt5ctypeIwE9do_narrowEwc in TU 1
-wur: conc178 2 5769 31 2619 31 24 n: _ZNSs5_GrowEjb in TU 1
-wur: conc229 2 2264 16 541 16 1 n: _ZNSt14overflow_errorD9Ev in TU 1
-wur: conc125 4 1971 16 356 16 1 n: _ZNKSt5ctypeIwE8do_widenEc in TU 1
-wur: conc77 3 5064 16 1506 0 6 n: _ZNKSt5ctypeIcE11_Do_widen_sEPKcS2_Pcj in TU 1
-wur: conc95 4 4678 31 1689 0 9 n: _ZNKSt5ctypeItE11_Do_widen_sEPKcS2_Ptj in TU 1
-wur: conc148 2 3621 31 1472 31 24 n: _ZNKSt7codecvtIwciE9do_lengthERKiPKcS4_j in TU 1
-wur: conc100 4 3693 0 723 0 2 n: _ZNKSt5ctypeItE5do_isEPKtS2_Ps in TU 1
-wur: conc122 4 3668 16 715 0 2 n: _ZNKSt5ctypeIwE5do_isEPKwS2_Ps in TU 1
-wur: conc74 4 2766 15 1176 15 3 n: _ZNKSt5ctypeIcE10do_toupperEPcPKc in TU 1
-wur: conc146 1 4735 62 2581 62 30 n: _ZNKSt7codecvtIwciE5do_inERiPKcS3_RS3_PwS5_RS5_ in TU 1
-wur: conc118 2 4671 31 1685 31 9 n: _ZNKSt5ctypeIwE11_Do_widen_sEPKcS2_Pwj in TU 1
-wur: conc91 4 2910 0 1188 0 3 n: _ZNKSt5ctypeItE10do_toupperEPtPKt in TU 1
-wur: conc119 2 3319 0 1156 0 5 n: _ZNKSt5ctypeIwE11do_scan_notEsPKwS2_ in TU 1
-wur: conc78 3 5180 0 1520 0 6 n: _ZNKSt5ctypeIcE12_Do_narrow_sEPKcS2_cPcj in TU 1
-wur: conc61 2 2212 0 328 0 1 n: _ZNKSt11logic_error4whatEv in TU 1
-wur: conc140 4 4322 16 1585 16 4 n: _ZNKSt7codecvtIwciE10do_unshiftERiPcS2_RS2_ in TU 1
-wur: conc227 4 2256 0 538 0 1 n: _ZNSt12out_of_rangeD9Ev in TU 1
-wur: conc235 4 1582 16 349 16 1 n: _ZNSt7codecvtItciED9Ev in TU 1
-wur: conc225 4 2256 0 537 0 1 n: _ZNSt12domain_errorD9Ev in TU 1
-wur: conc89 4 2910 0 1188 0 3 n: _ZNKSt5ctypeItE10do_tolowerEPtPKt in TU 1
-wur: conc220 4 2258 0 536 0 1 n: _ZNSt11range_errorD9Ev in TU 1
-wur: conc236 4 1582 0 343 0 1 n: _ZNSt7codecvtIwciED9Ev in TU 1
-wur: conc233 4 2152 0 350 0 2 n: _ZNSt5ctypeItED9Ev in TU 1
-wur: conc65 4 2218 0 329 0 1 n: _ZNKSt13runtime_error4whatEv in TU 1
-wur: conc139 2 3603 31 1494 31 24 n: _ZNKSt7codecvtItciE9do_lengthERKiPKcS4_j in TU 1
-wur: conc105 2 2152 16 657 0 4 n: _ZNKSt5ctypeItE9do_narrowEtc in TU 1
-wur: conc234 4 2152 31 344 31 2 n: _ZNSt5ctypeIwED9Ev in TU 1
-wur: conc224 2 1700 0 338 0 1 n: _ZNSt12ctype_bynameIcED9Ev in TU 1
-wur: conc231 4 2266 0 544 0 1 n: _ZNSt15underflow_errorD9Ev in TU 1
-wur: conc103 4 1971 0 361 0 1 n: _ZNKSt5ctypeItE8do_widenEc in TU 1
-wur: conc88 2 3324 0 1169 0 5 n: _ZNKSt5ctypeItE10do_scan_isEsPKtS2_ in TU 1
-wur: conc147 3 5450 63 2399 63 24 n: _ZNKSt7codecvtIwciE6do_outERiPKwS3_RS3_PcS5_RS5_ in TU 1
-wur: conc226 3 2256 0 537 0 1 n: _ZNSt12length_errorD9Ev in TU 1
-wur: conc96 2 3321 15 1168 15 5 n: _ZNKSt5ctypeItE11do_scan_notEsPKtS2_ in TU 1
-wur: conc72 3 2766 0 1177 0 3 n: _ZNKSt5ctypeIcE10do_tolowerEPcPKc in TU 1
-wur: conc98 4 5044 31 1974 31 13 n: _ZNKSt5ctypeItE12_Do_narrow_sEPKtS2_cPcj in TU 1
-wur: conc183 1 11174 78 3110 78 54 n: _ZNSs6assignERKSsjj in TU 1
-wur: conc232 1 2264 0 545 0 1 n: _ZNSt16invalid_argumentD9Ev in TU 1
-wur: conc131 4 4322 16 1595 16 4 n: _ZNKSt7codecvtItciE10do_unshiftERiPcS2_RS2_ in TU 1
-wur: conc114 1 2901 32 1179 32 3 n: _ZNKSt5ctypeIwE10do_toupperEPwPKw in TU 1
-wur: conc111 3 3323 47 1154 31 5 n: _ZNKSt5ctypeIwE10do_scan_isEsPKwS2_ in TU 1
-wur: conc112 3 2901 0 1179 0 3 n: _ZNKSt5ctypeIwE10do_tolowerEPwPKw in TU 1
-wur: conc121 4 5037 15 1966 15 13 n: _ZNKSt5ctypeIwE12_Do_narrow_sEPKwS2_cPcj in TU 1
-wur: conc138 2 5398 63 2356 47 24 n: _ZNKSt7codecvtItciE6do_outERiPKtS3_RS3_PcS5_RS5_ in TU 1
-wur: conc197 3 6978 16 993 16 5 n: _ZNSsC9ERKSs in TU 1
-wur: conc199 3 3217 0 783 0 1 n: _ZNSt13runtime_errorC9ERKSs in TU 1
-wur: conc201 3 3648 0 700 0 1 n: _ZNSt8ios_base7failureC9ERKSs in TU 1
-wur: conc185 1 11833 31 2790 31 55 n: _ZNSs6assignEPKcj in TU 1
-wur: conc187 1 4575 0 985 0 2 n: _ZNSs6assignEPKc in TU 1
-wur: conc195 1 6623 16 985 0 2 n: _ZNSsC9EPKc in TU 1
-wur: conc137 2 4739 47 2579 47 30 n: _ZNKSt7codecvtItciE5do_inERiPKcS3_RS3_PtS5_RS5_ in TU 1
-wur: conc202 1 5135 15 1060 15 5 n: _ZNSt8ios_base5clearEib in TU 1
-wur: conc203 1 3315 0 1053 0 2 n: _ZNSt9basic_iosIcSt11char_traitsIcEE5clearEib in TU 1
-wur: conc204 1 3949 0 1190 0 2 n: _ZNSt9basic_iosIcSt11char_traitsIcEE8setstateEib in TU 1
-wur: conc205 1 5442 15 1311 15 mem=20303872 max=21946368 8 n: _ZNSo5flushEv in TU 1
-wur: conc206 1 3926 0 958 0 7 n: _ZNSo5_OsfxEv in TU 1
-wur: conc207 1 3484 0 602 0 7 n: _ZNSo6sentryD9Ev in TU 1
-wur: conc208 1 6089 16 1144 16 16 n: _ZNSo6sentryC9ERSo in TU 1
-wur: conc214 1 8798 15 1195 15 13 n: _ZNSo3putEc in TU 1
-wur: conc239 1 3765 16 1038 16 6 n: _ZSt4endlRSo in TU 1
-wur: conc240 2 13689 93 2344 93 mem=20373504 max=22016000 46 n: _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc in TU 1
-wur: conc241 1 3930 16 251 16 2 n: main in TU 1
-wur: gen2 1 9561 15 87 0 10 nr=5 n: batch 2
-wur: gen5 1 50674 62 388 62 50 nr=20 n: batch 5
-wur: gen10 4 69856 141 221 109 mem=20844544 max=22482944 82 nr=20 n: batch 10
-wur: gen6 2 57813 266 377 250 70 nr=20 n: batch 6
-wur: gen11 3 45588 281 359 281 mem=21852160 max=23494656 29 nr=20 n: batch 11
-wur: gen9 1 88620 234 208 187 174 nr=20 n: batch 9
-wur: gen3 4 47707 93 365 93 43 nr=20 n: batch 3
-wur: gen8 2 60267 124 212 124 85 nr=20 n: batch 8
-wur: gen12 4 18021 110 73 94 91 nr=2 n: batch 12
-wur: gen7 3 50604 125 173 110 52 nr=20 n: batch 7
-wur: gen4 1 50437 125 379 109 57 nr=20 n: batch 4
-wur: gen6 2 11544 47 62 47 61 nr=2 n: batch 6
-wur: gen7 1 11740 31 62 31 61 nr=2 n: batch 7
+wur: stat12 2 5868 780 510 16 mem=19099648 max=20738048 23 nr=2 n: batch 12
+wur: conc241 1 3964 734 251 16 mem=19116032 max=20754432 2 n: main in TU 1
+wur: gen12 1 18055 78 73 62 91 nr=2 n: batch 12
 analysis: 0ms: beginning TU reports pass
 summary: Analysis summary report:
 summary: ------------------------
@@ -253,7 +45,7 @@ summary: Total LoC input to cov-analyze : 133251
 summary: Functions analyzed             : 187
 summary: Classes/structs analyzed       : 167
 summary: Paths analyzed                 : 885
-summary: Time taken by analysis         : 00:00:05
+summary: Time taken by analysis         : 00:00:04
 summary: Defect occurrences found       : 7 Total
 summary:                                  1 DELETE_VOID
 summary:                                  6 NO_EFFECT
@@ -261,6 +53,6 @@ summary: Number of functions: 242
 summary: out_of_memory count: 0
 summary: paths_exceeded count: 0
 summary: recoverable failures: 0
-mem: AM peak mem bytes: 28934144
+mem: AM peak mem bytes: 28262400
 assert: suppressed asserts: workers=0, master=0
 failures: recoverable failures: workers=0, master=0

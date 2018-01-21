@@ -1,837 +1,829 @@
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> cov-build 8.7.1 (build a59584cec3 p-lodi1-push-28091.44.570)
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> Coverity Build Capture (64-bit) version 8.7.1 on Windows 7 Ultimate, 64-bit, Service Pack 1 (build 7601)
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> Internal version numbers: a59584cec3 p-lodi1-push-28091.44.570
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> Dumping from hostname : LEE
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> Platform info: Windows 7 Ultimate, 64-bit, Service Pack 1 (build 7601)
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> cov-build command: cov-build --dir D:\Projects\demo-1 devenv D:\Projects\demo-1\demo-1.sln /Rebuild 
-2018-01-21T12:37:58.321000Z|cov-build|5900|info|> cov-build expanded command: cov-build --dir D:\Projects\demo-1 devenv D:\Projects\demo-1\demo-1.sln /Rebuild 
-2018-01-21T12:37:58.327000Z|cov-build|5900|info|> build command: D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com D:\Projects\demo-1\demo-1.sln /Rebuild
-2018-01-21T12:37:58.327000Z|cov-build|5900|info|> thunk command: devenv.com D:\Projects\demo-1\demo-1.sln /Rebuild
-2018-01-21T12:37:58.327000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.328000Z|cov-build|5900|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
-2018-01-21T12:37:58.328000Z|cov-build|5900|info|> Set COVERITY_BUILD_COMMAND to "D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com"  D:\Projects\demo-1\demo-1.sln /Rebuild
-2018-01-21T12:37:58.328000Z|cov-build|5900|info|> Set COVERITY_ORIG_BUILD_COMMAND to devenv.com D:\Projects\demo-1\demo-1.sln /Rebuild
-2018-01-21T12:37:58.328000Z|cov-build|5900|info|> Set COVERITY_COV_BUILD_COMMAND to cov-build --dir D:\Projects\demo-1 devenv D:\Projects\demo-1\demo-1.sln /Rebuild 
-2018-01-21T12:37:58.328000Z|cov-build|5900|info|> Set UseSharedCompilation to false.
-2018-01-21T12:37:58.329000Z|cov-build|5900|info|> Set COVERITY_CAPTURE_CHCMDLINE_TYPE to static
-2018-01-21T12:37:58.329000Z|cov-build|5900|info|> Set COVERITY_BIN to D:/Coverity/Coverity Static Analysis/bin
-2018-01-21T12:37:58.329000Z|cov-build|5900|info|> Set COVERITY_SITE_CC to cl;devenv;link;msbuild
-2018-01-21T12:37:58.329000Z|cov-build|5900|info|> Set COVERITY_TEMP to C:/Windows/TEMP/cov-SYSTEM/fe946234d396cb67d17339a7f5566790
-2018-01-21T12:37:58.330000Z|cov-build|5900|info|> Set COVERITY_COMMON_TEMP to C:/Windows/TEMP
-2018-01-21T12:37:58.330000Z|cov-build|5900|info|> Set COVERITY_IDIR to D:/Projects/demo-1
-2018-01-21T12:37:58.330000Z|cov-build|5900|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-e7d6b9917fd712199c1c993e63c807ad.s
-2018-01-21T12:37:58.330000Z|cov-build|5900|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-e7d6b9917fd712199c1c993e63c807ad.m
-2018-01-21T12:37:58.331000Z|cov-build|5900|info|> Set COVERITY_OUTPUT_ENCODING to GBK
-2018-01-21T12:37:58.331000Z|cov-build|5900|info|> Set COVERITY_SYSTEM_ENCODING to GBK
-2018-01-21T12:37:58.331000Z|cov-build|5900|info|> Set COVERITY_EMIT to D:/Projects/demo-1/emit
-2018-01-21T12:37:58.331000Z|cov-build|5900|info|> Set COVERITY_USING_CYGWIN to False
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> Dumping configuration:
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> User/default configuration:
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> Configuration read from: command-line
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> Node: coverity
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>   Node: config
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\coverity_config.xml
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>   Node: config
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>     Node: prevent
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>       Node: dir Value: D:\Projects\demo-1
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\coverity_config.xml
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> Node: coverity
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>   Node: cit_version Value: 1
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>   Node: config
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0\coverity_config.xml
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0\coverity_config.xml
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0\coverity_config.xml
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_link-config-0\coverity_config.xml
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0\coverity_config.xml
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|> Node: coverity
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>   Node: cit_version Value: 1
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>   Node: config
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>     Node: build
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>       Node: compiler
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: template_compiler Value: true
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: comp_name Value: cl
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: comp_translator Value: msvc
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: comp_lang Value: C/C++
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: comp_generic Value: msvc
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>       Node: options
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: id Value: msvc-cl-.*
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0/../user_nodefs.h
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>           Node: var_name Value: cov_instrument_config_version
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>             Node: var_value Value: 3
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_deployment_path
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.332000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.333000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:37:58.333000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.333000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_header_path
-2018-01-21T12:37:58.333000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.333000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.333000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
-2018-01-21T12:37:58.333000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.334000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_name
-2018-01-21T12:37:58.334000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.334000Z|cov-build|5900|info|>             Node: platform_name Value: x64
-2018-01-21T12:37:58.334000Z|cov-build|5900|info|>             Node: var_value Value: libci-runtime-x64.lib
-2018-01-21T12:37:58.334000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.334000Z|cov-build|5900|info|>             Node: platform_name Value: x86
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>             Node: var_value Value: libci-runtime-x86.lib
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_path
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>         Node: begin_command_line_config
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>       Node: options
-2018-01-21T12:37:58.335000Z|cov-build|5900|info|>         Node: id Value: msvc_cxx-cl-.*
-2018-01-21T12:37:58.336000Z|cov-build|5900|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0/../user_nodefs.h
-2018-01-21T12:37:58.336000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.336000Z|cov-build|5900|info|>           Node: var_name Value: cov_instrument_config_version
-2018-01-21T12:37:58.336000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.336000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.338000Z|cov-build|5900|info|>             Node: var_value Value: 3
-2018-01-21T12:37:58.338000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.338000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_deployment_path
-2018-01-21T12:37:58.338000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.339000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.339000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:37:58.339000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.339000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_header_path
-2018-01-21T12:37:58.339000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.339000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.339000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
-2018-01-21T12:37:58.346000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.346000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_name
-2018-01-21T12:37:58.346000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>             Node: platform_name Value: x64
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>             Node: var_value Value: libci-runtime-x64.lib
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>             Node: platform_name Value: x86
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>             Node: var_value Value: libci-runtime-x86.lib
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_path
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: begin_command_line_config
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>   Node: md5 Value: 418015c53897f958784fe8fd56786420
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0\coverity_config.xml
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|> Node: coverity
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>   Node: cit_version Value: 1
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>   Node: config
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>     Node: build
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>       Node: compiler
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: template_compiler Value: true
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: comp_name Value: devenv
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: comp_translator Value: msvc_devenv
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: comp_lang Value: C/C++
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: comp_generic Value: msvc
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>       Node: options
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: id Value: msvc_devenv-devenv-.*
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0/../user_nodefs.h
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>         Node: begin_command_line_config
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>   Node: md5 Value: 1bd6116a591fe1eeb03a04d0299f415d
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0\coverity_config.xml
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|> Node: coverity
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>   Node: cit_version Value: 1
-2018-01-21T12:37:58.360000Z|cov-build|5900|info|>   Node: config
-2018-01-21T12:37:58.361000Z|cov-build|5900|info|>     Node: build
-2018-01-21T12:37:58.361000Z|cov-build|5900|info|>       Node: compiler
-2018-01-21T12:37:58.361000Z|cov-build|5900|info|>         Node: template_compiler Value: true
-2018-01-21T12:37:58.361000Z|cov-build|5900|info|>         Node: comp_name Value: msbuild
-2018-01-21T12:37:58.361000Z|cov-build|5900|info|>         Node: comp_translator Value: msvc_msbuild
-2018-01-21T12:37:58.361000Z|cov-build|5900|info|>         Node: comp_lang Value: C/C++
-2018-01-21T12:37:58.361000Z|cov-build|5900|info|>         Node: comp_generic Value: msvc
-2018-01-21T12:37:58.361000Z|cov-build|5900|info|>       Node: options
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: id Value: msvc_msbuild-msbuild-.*
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0/../user_nodefs.h
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: begin_command_line_config
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>   Node: md5 Value: 90758a4508778ab76c418f64362bed29
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\template-msvc_link-config-0\coverity_config.xml
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|> Node: coverity
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>   Node: cit_version Value: 1
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>   Node: config
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>     Node: build
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>       Node: compiler
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: template_compiler Value: true
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: comp_name Value: link
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: comp_translator Value: msvc_link
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: comp_lang Value: C/C++
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: comp_generic Value: msvc
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>       Node: options
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: id Value: msvc_link-link-.*
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_link-config-0/../user_nodefs.h
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: var_name Value: cov_instrument_config_version
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: var_value Value: 3
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_deployment_path
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_header_path
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_name
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: platform_name Value: x64
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: var_value Value: libci-runtime-x64.lib
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: platform_name Value: x86
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: var_value Value: libci-runtime-x86.lib
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>         Node: instrument_variable
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: var_name Value: cov_lib_path
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>           Node: cond_platform_value
-2018-01-21T12:37:58.371000Z|cov-build|5900|info|>             Node: platform_name Value: all
-2018-01-21T12:37:58.378000Z|cov-build|5900|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:37:58.378000Z|cov-build|5900|info|>         Node: begin_command_line_config
-2018-01-21T12:37:58.378000Z|cov-build|5900|info|>   Node: md5 Value: 2bb6e0abf3bbde37b34c8526ad9423ce
-2018-01-21T12:37:58.378000Z|cov-build|5900|info|> 
-2018-01-21T12:37:58.705000Z|cov-internal-capture|4884|info|> Running build command: "D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com"  D:\Projects\demo-1\demo-1.sln /Rebuild
-2018-01-21T12:37:58.705000Z|cov-internal-capture|4884|info|> Launching in directory D:/Projects/demo-1
-2018-01-21T12:38:01.899000Z|cov-internal-capture|4884|info|> EXECUTING: "D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com"  D:\Projects\demo-1\demo-1.sln /Rebuild
-2018-01-21T12:38:02.344000Z|cov-internal-capture|4884|info|> EXECUTING: "D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe"  D:\Projects\demo-1\demo-1.sln /Rebuild
-2018-01-21T12:38:02.445000Z|cov-internal-capture|4884|info|> [WARNING] Could not determine version of MSVC compiler in the same Visual Studio installation as the invoked devenv. Assuming this is VS 2010, i.e. this devenv supports msbuild reuse.
-2018-01-21T12:38:03.623000Z|cov-internal-capture|4884|info|> EXECUTING: cl.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000166166624.rsp" /nologo /errorReport:queue
-2018-01-21T12:38:03.832000Z|cov-internal-capture|4884|info|> EXECUTING: cl.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000166166624.rsp" /nologo /errorReport:queue
-2018-01-21T12:38:03.983000Z|cov-internal-capture|4884|info|> EXECUTING: mspdbsrv.exe -start -spawn
-2018-01-21T12:38:08.110000Z|cov-internal-capture|4884|info|> CWD: d:\Projects\demo-1\demo-1\
-2018-01-21T12:38:08.110000Z|cov-internal-capture|4884|info|> COMPILING: "D:\Coverity\Coverity Static Analysis\bin\cov-translate.exe" cl.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000166166624.rsp" /nologo /errorReport:queue
-2018-01-21T12:38:08.110000Z|cov-internal-capture|4884|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-e7d6b9917fd712199c1c993e63c807ad.s
-2018-01-21T12:38:08.350000Z|cov-translate|5980|output|> Encountered compiler d:/microsoft visual studio 9.0/vc/bin/cl for the first time, configuring it
-2018-01-21T12:38:08.988000Z|cov-translate|5980|output|> * Configuring D:\Microsoft Visual Studio 9.0\VC\bin\cl as a C compiler
-2018-01-21T12:38:08.991000Z|cov-translate|5980|output|> [STATUS] msvc-config-0: Running sanity tests on native compiler
-2018-01-21T12:38:09.688000Z|cov-translate|5980|output|> [STATUS] msvc-config-0: Retrieving values for macros
-2018-01-21T12:38:39.952000Z|cov-translate|5980|output|> [STATUS] msvc-config-0: Detecting size and alignment of fundamental types.
-2018-01-21T12:38:39.952000Z|cov-translate|5980|output|> Looking for macros in standard headers. This can take a long time.
-2018-01-21T12:38:39.952000Z|cov-translate|5980|output|> [STATUS] msvc-config-0: Retrieving values for macros
-2018-01-21T12:38:40.204000Z|cov-translate|5980|output|> * Configuring D:\Microsoft Visual Studio 9.0\VC\bin\cl as a C++ compiler
-2018-01-21T12:38:40.206000Z|cov-translate|5980|output|> [STATUS] msvc_cxx-config-0: Running sanity tests on native compiler
-2018-01-21T12:38:41.128000Z|cov-translate|5980|output|> [STATUS] msvc_cxx-config-0: Retrieving values for macros
-2018-01-21T12:39:13.796000Z|cov-translate|5980|output|> [STATUS] msvc_cxx-config-0: Detecting size and alignment of fundamental types.
-2018-01-21T12:39:13.796000Z|cov-translate|5980|output|> Looking for macros in standard headers. This can take a long time.
-2018-01-21T12:39:13.796000Z|cov-translate|5980|output|> [STATUS] msvc_cxx-config-0: Retrieving values for macros
-2018-01-21T12:39:14.023000Z|cov-translate|5980|output|> [WARNING] Template config template-msvc_link-config-0 already exists for link and will be reused. 
-2018-01-21T12:39:14.027000Z|cov-translate|5980|output|> Added template compiler configuration instance D:/Projects/demo-1/emit/LEE/config/f8703234ba91c40bf14f77fd597c482f/coverity_config.xml
-2018-01-21T12:39:14.050000Z|cov-translate|5980|output|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\coverity_config.xml
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|> Node: coverity
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>   Node: cit_version Value: 1
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>   Node: config
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>     Node: include Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity_config.xml
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>     Node: include Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity_config.xml
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity_config.xml
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|> Node: coverity
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>   Node: cit_version Value: 1
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>   Node: config
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>     Node: build
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>       Node: compiler
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_name Value: cl
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_dir Value: D:\Microsoft Visual Studio 9.0\VC\bin
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_translator Value: msvc
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_lang Value: C/C++
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_front_end Value: cov-emit
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_desc Value: Microsoft Visual Studio (CIT)
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_next_type Value: msvc_cxx
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_generic Value: msvc
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: comp_require
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: id Value: msvc-cl-1500-f8703234ba91c40bf14f77fd597c482f-0
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: version Value: 1500
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: could_require_regen Value: true
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: is_compiler Value: true
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: is_linker Value: true
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: use_mspch Value: true
-2018-01-21T12:39:14.051000Z|cov-translate|5980|output|>         Node: target_platform Value: x86
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>       Node: options
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: id Value: msvc-cl-1500-f8703234ba91c40bf14f77fd597c482f-0
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: instrument_predicates
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: insert
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: insertion_string Value: /Gm- /I"[[:cov_lib_header_path:]]"
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: precedes_regex Value: (^|\s)[-/]link
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: follows_regex Value: (^|\s)@\S+
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: follows_regex Value: (^|\s)/Gm
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: if
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: conditions
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>               Node: cond
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>                 Node: contains_regex Value: [-/]link]
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: then
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>               Node: insert
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>                 Node: insertion_string Value: /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>                 Node: follows_regex Value: [-/]link
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: else
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: insert
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>               Node: insertion_string Value: /link /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>               Node: follows_regex Value: .*
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: var_name Value: cov_instrument_config_version
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: platform_name Value: all
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: var_value Value: 3
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: var_name Value: cov_lib_deployment_path
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: platform_name Value: all
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: var_name Value: cov_lib_header_path
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: platform_name Value: all
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: var_name Value: cov_lib_name
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: platform_name Value: x64
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: var_value Value: libci-runtime-x64.lib
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: platform_name Value: x86
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: var_value Value: libci-runtime-x86.lib
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: var_name Value: cov_lib_path
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: platform_name Value: all
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: template_config_option_id Value: msvc-cl-.*
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_output_dir_switch Value: /Fo
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_remove_arg Value: [-/]Fo.+
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_remove_arg Value: [-/]c
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_remove_arg Value: [-/]WX
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_remove_next_arg Value: [-/]Fo
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_response_file
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: switch Value: @
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: suffix Value: .rsp
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>           Node: format Value: default
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_switch Value: /E
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_compile_switch Value: /C
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: preprocess_output Value: -
-2018-01-21T12:39:14.052000Z|cov-translate|5980|output|>         Node: fix_macro_regex Value: replace/-D(.*)/\/D$1
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: pre_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-macro-compat.h
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: pre_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-compiler-compat.h
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --no_stdarg_builtin
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --microsoft
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --no_predefined_cplusplus
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: -w
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --no_predefines
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --comp_ver
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: 1500
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --size_t_type=j
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --type_sizes=x8li4s2ed8fP4
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --type_alignments=x8li4s2ed8fP4
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --char_bit_size=8
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --enable_declspec
-2018-01-21T12:39:14.053000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --calling_convention_group
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: prepend_arg Value: default,cdecl
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /E
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /EP
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /P
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /Zg
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /Zs
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /HELP
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /help
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /ZW
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: /?
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -E
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -EP
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -P
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -Zg
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -Zs
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -?
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -HELP
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -help
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -ZW
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_arg Value: -?
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_substring Value: /CLR
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_substring Value: -CLR
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_substring Value: /clr
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_substring Value: -clr
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_file Value: conftest\.c{1,2}$
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: skip_file Value: conftest\.cpp$
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: opt_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0/../user_nodefs.h
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: expand
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>           Node: options
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>             Node: args_from_env_var
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>               Node: add Value: CL
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>             Node: includes_from_env_var Value: INCLUDE
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>             Node: includes_from_env_var_are_sys_includes Value: true
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>             Node: intern_split_response_file_fn Value: msvc_split
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>             Node: replace_arg_regex
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>               Node: replace Value: @(.*)
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>               Node: with Value: --coverity_resp_file=$1
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: pre_trans
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>           Node: options
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>             Node: intern_trans Value: msvc_pre_translate
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: trans
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>           Node: options
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>             Node: prepend_arg Value: --c
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>         Node: begin_command_line_config
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|>   Node: md5 Value: 457c5a59147a61c3ca5a08bf643cdcdb
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> Preincluded file begin: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-macro-compat.h
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> ﻿
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #if !(defined(_M_IX86) || defined(__coverity_undefine__M_IX86))
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #define _M_IX86 600
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #if !(defined(_INTEGRAL_MAX_BITS) || defined(__coverity_undefine__INTEGRAL_MAX_BITS))
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #define _INTEGRAL_MAX_BITS 64
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #if !(defined(_MSC_BUILD) || defined(__coverity_undefine__MSC_BUILD))
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #define _MSC_BUILD 8
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #if !(defined(_MSC_EXTENSIONS) || defined(__coverity_undefine__MSC_EXTENSIONS))
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #define _MSC_EXTENSIONS 1
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #if !(defined(_MSC_FULL_VER) || defined(__coverity_undefine__MSC_FULL_VER))
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #define _MSC_FULL_VER 150021022
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #if !(defined(_MSC_VER) || defined(__coverity_undefine__MSC_VER))
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #define _MSC_VER 1500
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #if !(defined(_MT) || defined(__coverity_undefine__MT))
-2018-01-21T12:39:14.054000Z|cov-translate|5980|output|> #define _MT 1
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #if !(defined(_M_IX86_FP) || defined(__coverity_undefine__M_IX86_FP))
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #define _M_IX86_FP 0
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #if !(defined(_WIN32) || defined(__coverity_undefine__WIN32))
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #define _WIN32 1
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #if !(defined(__COUNTER__) || defined(__coverity_undefine___COUNTER__))
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #define __COUNTER__ 0
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> Preincluded file end: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-macro-compat.h
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> Preincluded file begin: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-compiler-compat.h
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> ﻿
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #if !defined(COVERITY_COMPAT_2dc32581caf853d96ea89aba084e725a)
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #define COVERITY_COMPAT_2dc32581caf853d96ea89aba084e725a
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> /*
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|>   Copyright (c) 2017 Synopsys, Inc. All rights reserved worldwide.
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|>   The information contained in this file is the proprietary and confidential
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|>   information of Synopsys, Inc. and its licensors, and is supplied subject to,
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|>   and may be used only by Synopsys customers in accordance with the terms and
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|>   conditions of a previously executed license agreement between Synopsys and
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|>   that customer.
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> */
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> /* DO NOT MODIFY THE CONTENTS OF THIS FILE */
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #define _export
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #if defined(_Wp64)
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> typedef __COVERITY_SIZE_TYPE__ size_t;
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #if defined(_MSC_FULL_VER) && _MSC_FULL_VER >= 190023506
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> #pragma builtin begin
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> extern float __builtin_huge_valf();
-2018-01-21T12:39:14.055000Z|cov-translate|5980|output|> extern float __builtin_nanf(const char*);
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> extern float __builtin_nansf(const char*);
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> extern double __builtin_huge_val();
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> extern double __builtin_nan(const char*);
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> extern double __builtin_nans(const char*);
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #pragma builtin end
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #if defined(_DEBUG) && defined (_CRTDBG_MAP_ALLOC)
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef malloc
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef calloc
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef realloc
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef free
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _malloca
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _strdup
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _wcsdup
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _mbsdup
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _wtempnam
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _fullpath
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _wfullpath
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _wgetcwd
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef _wgetdcwd
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #nodef getchar
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> #endif /* COVERITY_COMPAT_2dc32581caf853d96ea89aba084e725a */
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> Preincluded file end: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-compiler-compat.h
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity_config.xml
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|> Node: coverity
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>   Node: cit_version Value: 1
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>   Node: config
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>     Node: build
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>       Node: compiler
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_name Value: cl
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_dir Value: D:\Microsoft Visual Studio 9.0\VC\bin
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_translator Value: msvc_cxx
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_lang Value: C/C++
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_front_end Value: cov-emit
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_desc Value: Microsoft Visual Studio (C++) (CIT)
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_cxx Value: true
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_generic Value: msvc
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: comp_require
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: id Value: msvc_cxx-cl-1500-f8703234ba91c40bf14f77fd597c482f-0
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: version Value: 1500
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: could_require_regen Value: true
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: is_compiler Value: true
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: is_linker Value: true
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: use_mspch Value: true
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: target_platform Value: x86
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>       Node: options
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: id Value: msvc_cxx-cl-1500-f8703234ba91c40bf14f77fd597c482f-0
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>         Node: instrument_predicates
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>           Node: insert
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>             Node: insertion_string Value: /Gm- /I"[[:cov_lib_header_path:]]"
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>             Node: precedes_regex Value: (^|\s)[-/]link
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>             Node: follows_regex Value: (^|\s)@\S+
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>             Node: follows_regex Value: (^|\s)/Gm
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>           Node: if
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>             Node: conditions
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>               Node: cond
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>                 Node: contains_regex Value: [-/]link]
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>             Node: then
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>               Node: insert
-2018-01-21T12:39:14.056000Z|cov-translate|5980|output|>                 Node: insertion_string Value: /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>                 Node: follows_regex Value: [-/]link
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: else
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: insert
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>               Node: insertion_string Value: /link /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>               Node: follows_regex Value: .*
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: var_name Value: cov_instrument_config_version
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: platform_name Value: all
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: var_value Value: 3
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: var_name Value: cov_lib_deployment_path
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: platform_name Value: all
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: var_name Value: cov_lib_header_path
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: platform_name Value: all
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: var_name Value: cov_lib_name
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: platform_name Value: x64
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: var_value Value: libci-runtime-x64.lib
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: platform_name Value: x86
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: var_value Value: libci-runtime-x86.lib
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>         Node: instrument_variable
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: var_name Value: cov_lib_path
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>           Node: cond_platform_value
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: platform_name Value: all
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>         Node: template_config_option_id Value: msvc_cxx-cl-.*
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>         Node: preprocess_output_dir_switch Value: /Fo
-2018-01-21T12:39:14.057000Z|cov-translate|5980|output|>         Node: preprocess_remove_arg Value: [-/]Fo.+
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: preprocess_remove_arg Value: [-/]c
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: preprocess_remove_arg Value: [-/]WX
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: preprocess_remove_next_arg Value: [-/]Fo
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: preprocess_response_file
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>           Node: switch Value: @
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>           Node: suffix Value: .rsp
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>           Node: format Value: default
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: preprocess_switch Value: /E
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: preprocess_compile_switch Value: /C
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: preprocess_output Value: -
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: fix_macro_regex Value: replace/-D(.*)/\/D$1
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: pre_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-macro-compat.h
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: pre_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-compiler-compat.h
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --no_stdarg_builtin
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --microsoft
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --no_predefined_cplusplus
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: -w
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --no_predefines
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --comp_ver
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: 1500
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --size_t_type=j
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --type_sizes=w2x8li4s2ed8fP4
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --type_alignments=w2x8li4s2ed8fP4
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --char_bit_size=8
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --enable_declspec
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: --calling_convention_group
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: prepend_arg Value: default,cdecl
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /E
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /EP
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /P
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /Zg
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /Zs
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /HELP
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /help
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /ZW
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: /?
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -E
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -EP
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -P
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -Zg
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -Zs
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -?
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -HELP
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -help
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -ZW
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_arg Value: -?
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_substring Value: /CLR
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_substring Value: -CLR
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_substring Value: /clr
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_substring Value: -clr
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_file Value: conftest\.c{1,2}$
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: skip_file Value: conftest\.cpp$
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: opt_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0/../user_nodefs.h
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: expand
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>           Node: options
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>             Node: args_from_env_var
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>               Node: add Value: CL
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>             Node: includes_from_env_var Value: INCLUDE
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>             Node: includes_from_env_var_are_sys_includes Value: true
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>             Node: intern_split_response_file_fn Value: msvc_split
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>             Node: replace_arg_regex
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>               Node: replace Value: @(.*)
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>               Node: with Value: --coverity_resp_file=$1
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: pre_trans
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>           Node: options
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>             Node: intern_trans Value: msvc_pre_translate
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>         Node: trans
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>           Node: options
-2018-01-21T12:39:14.058000Z|cov-translate|5980|output|>             Node: prepend_arg Value: --c++
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|>         Node: begin_command_line_config
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|>   Node: md5 Value: 6eb75d5984d21432585d835158765657
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> Preincluded file begin: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-macro-compat.h
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> ﻿
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #if !(defined(_M_IX86) || defined(__coverity_undefine__M_IX86))
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #define _M_IX86 600
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #if !(defined(_CPPRTTI) || defined(__coverity_undefine__CPPRTTI))
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #define _CPPRTTI 1
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #if !(defined(_INTEGRAL_MAX_BITS) || defined(__coverity_undefine__INTEGRAL_MAX_BITS))
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #define _INTEGRAL_MAX_BITS 64
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #if !(defined(_MSC_BUILD) || defined(__coverity_undefine__MSC_BUILD))
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #define _MSC_BUILD 8
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #if !(defined(_MSC_EXTENSIONS) || defined(__coverity_undefine__MSC_EXTENSIONS))
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #define _MSC_EXTENSIONS 1
-2018-01-21T12:39:14.059000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #if !(defined(_MSC_FULL_VER) || defined(__coverity_undefine__MSC_FULL_VER))
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #define _MSC_FULL_VER 150021022
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #if !(defined(_MSC_VER) || defined(__coverity_undefine__MSC_VER))
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #define _MSC_VER 1500
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #if !(defined(_MT) || defined(__coverity_undefine__MT))
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #define _MT 1
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #if !(defined(_M_IX86_FP) || defined(__coverity_undefine__M_IX86_FP))
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #define _M_IX86_FP 0
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #if !(defined(_NATIVE_WCHAR_T_DEFINED) || defined(__coverity_undefine__NATIVE_WCHAR_T_DEFINED))
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #define _NATIVE_WCHAR_T_DEFINED 1
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #if !(defined(_WCHAR_T_DEFINED) || defined(__coverity_undefine__WCHAR_T_DEFINED))
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #define _WCHAR_T_DEFINED 1
-2018-01-21T12:39:14.060000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #if !(defined(_WIN32) || defined(__coverity_undefine__WIN32))
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #define _WIN32 1
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #if !(defined(__BOOL_DEFINED) || defined(__coverity_undefine___BOOL_DEFINED))
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #define __BOOL_DEFINED 1
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #if !(defined(__COUNTER__) || defined(__coverity_undefine___COUNTER__))
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #define __COUNTER__ 0
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #if !(defined(__cplusplus) || defined(__coverity_undefine___cplusplus))
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #define __cplusplus 199711L
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> Preincluded file end: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-macro-compat.h
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> Preincluded file begin: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-compiler-compat.h
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> ﻿
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #if !defined(COVERITY_COMPAT_caecf2e139ed15dab5758e813998f5b6)
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #define COVERITY_COMPAT_caecf2e139ed15dab5758e813998f5b6
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> /*
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>   Copyright (c) 2017 Synopsys, Inc. All rights reserved worldwide.
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>   The information contained in this file is the proprietary and confidential
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>   information of Synopsys, Inc. and its licensors, and is supplied subject to,
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>   and may be used only by Synopsys customers in accordance with the terms and
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>   conditions of a previously executed license agreement between Synopsys and
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>   that customer.
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> */
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> /* DO NOT MODIFY THE CONTENTS OF THIS FILE */
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #define _export
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> class type_info;
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> // BZ 50631
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> typedef struct _PMD
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> {
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>     int mdisp;
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>     int pdisp;
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|>     int vdisp;
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> } _PMD;
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #if defined(_MSC_FULL_VER) && _MSC_FULL_VER >= 190023506
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> #pragma builtin begin
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> extern float __builtin_huge_valf();
-2018-01-21T12:39:14.061000Z|cov-translate|5980|output|> extern float __builtin_nanf(const char*);
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> extern float __builtin_nansf(const char*);
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> extern double __builtin_huge_val();
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> extern double __builtin_nan(const char*);
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> extern double __builtin_nans(const char*);
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #pragma builtin end
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #if defined (_DEBUG) && defined(_CRTDBG_MAP_ALLOC)
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef malloc
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef calloc
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef realloc
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef free
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _malloca
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _strdup
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _wcsdup
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _mbsdup
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _wtempnam
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _fullpath
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _wfullpath
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _wgetcwd
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef _wgetdcwd
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #endif
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #nodef getchar
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> #endif /* COVERITY_COMPAT_caecf2e139ed15dab5758e813998f5b6 */
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> Preincluded file end: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-compiler-compat.h
-2018-01-21T12:39:14.062000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:14.065000Z|cov-translate|5980|output|> COV_TRANSLATE EXPANDED ARGS: "/Od" "-D_MBCS" "/Gm" "/EHsc" "/RTC1" "/MDd" "/FoDebug\" "/FdDebug\vc90.pdb" "/W3" "/c" "/ZI" "/TP" "..\demo-1.cpp" "/nologo" "/errorReport:queue" "-coverity_env_var_include,--sys_include=D:\Microsoft Visual Studio 9.0\VC\include" "-coverity_env_var_include,--sys_include=D:\Microsoft Visual Studio 9.0\VC\atlmfc\include" "-coverity_env_var_include,--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\\include" "-coverity_env_var_include,--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\include"
-2018-01-21T12:39:14.148000Z|cov-translate|5980|output|> [STATUS] Compiling ..\demo-1.cpp
-2018-01-21T12:39:14.148000Z|cov-translate|5980|output|> "D:/Coverity/Coverity Static Analysis/bin/cov-emit.exe" --dir=D:\Projects\demo-1 --ignore_path=C:\Windows\TEMP\cov-SYSTEM\fe946234d396cb67d17339a7f5566790\cov-configure --ignore_path=C:\Windows\TEMP\cov-SYSTEM\fe946234d396cb67d17339a7f5566790\cov-SYSTEM\73c42babbaf2eee50abb6dcdc8989e55 --no_stdarg_builtin --microsoft --no_predefined_cplusplus -w --no_predefines --comp_ver 1500 --char_bit_size=8 --enable_declspec --calling_convention_group default,cdecl --pre_preinclude D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-macro-compat.h --pre_preinclude D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-compiler-compat.h --preinclude "D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0/../user_nodefs.h" --c++ --microsoft_version 1500 "--sys_include=D:\Microsoft Visual Studio 9.0\VC\include" "--sys_include=D:\Microsoft Visual Studio 9.0\VC\atlmfc\include" "--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\\include" "--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\include" --no_alternative_tokens --wchar_t_keyword --typeinfo_nostd --exceptions -D_CPPUNWIND -D_DEBUG=1 -D_DLL=1 -D_MBCS -D_MT=1 -D_NATIVE_WCHAR_T_DEFINED=1 -D_WCHAR_T_DEFINED=1 -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i --import_dir Debug -I Debug ../demo-1.cpp 
-2018-01-21T12:39:21.099000Z|cov-translate|5980|output|> Emit for file 'D:/Projects/demo-1/demo-1.cpp' complete.
-2018-01-21T12:39:21.587000Z|cov-translate|5980|output|> 
-2018-01-21T12:39:21.740000Z|cov-internal-capture|4884|info|> EXECUTING: link.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000266166624.rsp" /NOLOGO /ERRORREPORT:QUEUE
-2018-01-21T12:39:21.893000Z|cov-internal-capture|4884|info|> EXECUTING: link.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000266166624.rsp" /NOLOGO /ERRORREPORT:QUEUE
-2018-01-21T12:39:22.055000Z|cov-internal-capture|4884|info|> CWD: d:\Projects\demo-1\demo-1\
-2018-01-21T12:39:22.055000Z|cov-internal-capture|4884|info|> COMPILING: "D:\Coverity\Coverity Static Analysis\bin\cov-translate.exe" link.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000266166624.rsp" /NOLOGO /ERRORREPORT:QUEUE
-2018-01-21T12:39:22.055000Z|cov-internal-capture|4884|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-e7d6b9917fd712199c1c993e63c807ad.s
-2018-01-21T12:39:22.159000Z|cov-translate|5248|output|> Encountered compiler d:/microsoft visual studio 9.0/vc/bin/link for the first time, configuring it
-2018-01-21T12:39:22.551000Z|cov-translate|5248|output|> * Configuring D:\Microsoft Visual Studio 9.0\VC\bin\link as a C++ compiler
-2018-01-21T12:39:22.557000Z|cov-translate|5248|output|> Added template compiler configuration instance D:/Projects/demo-1/emit/LEE/config/2b2c2e14af5a82ba3d0ae96bc79f5432/coverity_config.xml
-2018-01-21T12:39:22.568000Z|cov-translate|5248|output|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\2b2c2e14af5a82ba3d0ae96bc79f5432\coverity_config.xml
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|> Node: coverity
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>   Node: cit_version Value: 1
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>   Node: config
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>     Node: include Value: D:\Projects\demo-1\emit\LEE\config\2b2c2e14af5a82ba3d0ae96bc79f5432\msvc_link-config-0\coverity_config.xml
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\2b2c2e14af5a82ba3d0ae96bc79f5432\msvc_link-config-0\coverity_config.xml
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|> Node: coverity
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>   Node: cit_version Value: 1
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>   Node: config
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>     Node: build
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>       Node: compiler
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_name Value: link
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_dir Value: D:\Microsoft Visual Studio 9.0\VC\bin
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_translator Value: msvc_link
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_lang Value: C/C++
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_front_end Value: cov-emit
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_desc Value: Microsoft Visual Studio Linker (CIT)
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_cxx Value: true
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_generic Value: msvc
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: comp_require
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: id Value: msvc_link-link-2b2c2e14af5a82ba3d0ae96bc79f5432-0
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: target_platform_fn Value: microsoft
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: is_compiler Value: false
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: is_linker Value: true
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>       Node: options
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: id Value: msvc_link-link-2b2c2e14af5a82ba3d0ae96bc79f5432-0
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: instrument_predicates
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: insert
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: insertion_string Value: /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: follows_regex Value: .
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: instrument_variable
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: var_name Value: cov_instrument_config_version
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: cond_platform_value
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: platform_name Value: all
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: var_value Value: 3
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: instrument_variable
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: var_name Value: cov_lib_deployment_path
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: cond_platform_value
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: platform_name Value: all
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: instrument_variable
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: var_name Value: cov_lib_header_path
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: cond_platform_value
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: platform_name Value: all
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: instrument_variable
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: var_name Value: cov_lib_name
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: cond_platform_value
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: platform_name Value: x64
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: var_value Value: libci-runtime-x64.lib
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: cond_platform_value
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: platform_name Value: x86
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: var_value Value: libci-runtime-x86.lib
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: instrument_variable
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: var_name Value: cov_lib_path
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: cond_platform_value
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: platform_name Value: all
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: template_config_option_id Value: msvc_link-link-.*
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: expand
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: options
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: args_from_env_var
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>               Node: add Value: CL
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: includes_from_env_var Value: INCLUDE
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: includes_from_env_var_are_sys_includes Value: true
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: intern_split_response_file_fn Value: msvc_split
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: replace_arg_regex
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>               Node: replace Value: @(.*)
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>               Node: with Value: --coverity_resp_file=$1
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: pre_trans
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>           Node: options
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>             Node: intern_trans Value: msvc_pre_translate
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>         Node: begin_command_line_config
-2018-01-21T12:39:22.569000Z|cov-translate|5248|output|>   Node: md5 Value: 9ed6ad290bcecc780d9c215bb1bd4bee
-2018-01-21T12:39:22.572000Z|cov-translate|5248|output|> COV_TRANSLATE EXPANDED ARGS: "/OUT:D:\Projects\demo-1\Debug\demo-1.exe" "/MANIFEST" "/MANIFESTFILE:Debug\demo-1.exe.intermediate.manifest" "/MANIFESTUAC:level='asInvoker' uiAccess='false'" "-DEBUG" "/PDB:D:\Projects\demo-1\Debug\demo-1.pdb" "-DYNAMICBASE" "/NXCOMPAT" "/MACHINE:X86" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" ".\Debug\demo-1.obj" "/NOLOGO" "/ERRORREPORT:QUEUE" "-coverity_env_var_include,--sys_include=D:\Microsoft Visual Studio 9.0\VC\include" "-coverity_env_var_include,--sys_include=D:\Microsoft Visual Studio 9.0\VC\atlmfc\include" "-coverity_env_var_include,--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\\include" "-coverity_env_var_include,--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\include"
-2018-01-21T12:39:22.581000Z|cov-translate|5248|output|> 
-2018-01-21T12:39:22.924000Z|cov-internal-capture|4884|info|> EXECUTING: mt.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000366166624.rsp" /nologo
-2018-01-21T12:39:23.152000Z|cov-internal-capture|4884|info|> EXECUTING: mt.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000366166624.rsp" /nologo
-2018-01-21T12:39:23.472000Z|cov-internal-capture|4884|info|> EXECUTING: cmd.exe /C ""d:\Projects\demo-1\demo-1\Debug\BAT00000466166624.bat""
-2018-01-21T12:39:23.844000Z|cov-internal-capture|4884|info|> EXECUTING: cmd.exe /C ""d:\Projects\demo-1\demo-1\Debug\BAT00000466166624.bat""
-2018-01-21T12:39:24.187000Z|cov-build|5900|info|> 
-2018-01-21T12:39:24.187000Z|cov-build|5900|info|> Build time (cov-build overall): 00:01:27.419000
-2018-01-21T12:39:24.187000Z|cov-build|5900|info|> 
-2018-01-21T12:39:24.189000Z|cov-build|5900|info|> Build time (C/C++ emits total): 00:01:13.473000
-2018-01-21T12:39:24.190000Z|cov-build|5900|info|> 
-2018-01-21T12:39:24.192000Z|cov-build|5900|info|> Emitted 1 C/C++ compilation units (100%) successfully
-2018-01-21T12:39:24.192000Z|cov-build|5900|info|> 
-2018-01-21T12:39:24.192000Z|cov-build|5900|info|> 1 C/C++ compilation units (100%) are ready for analysis
-2018-01-21T12:39:24.193000Z|cov-build|5900|info|> The cov-build utility completed successfully.
-2018-01-21T12:39:24.205000Z|cov-build|5900|info|> 
+2018-01-21T13:06:44.353801Z|cov-build|6332|info|> cov-build 8.7.1 (build a59584cec3 p-lodi1-push-28091.44.570)
+2018-01-21T13:06:44.354801Z|cov-build|6332|info|> Coverity Build Capture (64-bit) version 8.7.1 on Windows 7 Ultimate, 64-bit, Service Pack 1 (build 7601)
+2018-01-21T13:06:44.354801Z|cov-build|6332|info|> Internal version numbers: a59584cec3 p-lodi1-push-28091.44.570
+2018-01-21T13:06:44.354801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.354801Z|cov-build|6332|info|> Dumping from hostname : LEE
+2018-01-21T13:06:44.355801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.355801Z|cov-build|6332|info|> Platform info: Windows 7 Ultimate, 64-bit, Service Pack 1 (build 7601)
+2018-01-21T13:06:44.355801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.355801Z|cov-build|6332|info|> cov-build command: cov-build --dir D:\Projects\demo-1 devenv D:\Projects\demo-1\demo-1.sln /Rebuild 
+2018-01-21T13:06:44.355801Z|cov-build|6332|info|> cov-build expanded command: cov-build --dir D:\Projects\demo-1 devenv D:\Projects\demo-1\demo-1.sln /Rebuild 
+2018-01-21T13:06:44.364801Z|cov-build|6332|info|> build command: D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com D:\Projects\demo-1\demo-1.sln /Rebuild
+2018-01-21T13:06:44.365801Z|cov-build|6332|info|> thunk command: devenv.com D:\Projects\demo-1\demo-1.sln /Rebuild
+2018-01-21T13:06:44.365801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.365801Z|cov-build|6332|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2018-01-21T13:06:44.365801Z|cov-build|6332|info|> Set COVERITY_BUILD_COMMAND to "D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com"  D:\Projects\demo-1\demo-1.sln /Rebuild
+2018-01-21T13:06:44.366801Z|cov-build|6332|info|> Set COVERITY_ORIG_BUILD_COMMAND to devenv.com D:\Projects\demo-1\demo-1.sln /Rebuild
+2018-01-21T13:06:44.366801Z|cov-build|6332|info|> Set COVERITY_COV_BUILD_COMMAND to cov-build --dir D:\Projects\demo-1 devenv D:\Projects\demo-1\demo-1.sln /Rebuild 
+2018-01-21T13:06:44.367801Z|cov-build|6332|info|> Set UseSharedCompilation to false.
+2018-01-21T13:06:44.367801Z|cov-build|6332|info|> Set COVERITY_CAPTURE_CHCMDLINE_TYPE to static
+2018-01-21T13:06:44.367801Z|cov-build|6332|info|> Set COVERITY_BIN to D:/Coverity/Coverity Static Analysis/bin
+2018-01-21T13:06:44.368801Z|cov-build|6332|info|> Set COVERITY_SITE_CC to cl;devenv;link;msbuild
+2018-01-21T13:06:44.368801Z|cov-build|6332|info|> Set COVERITY_TEMP to C:/Windows/TEMP/cov-SYSTEM/055fd84221597df805825acbbfea0577
+2018-01-21T13:06:44.369801Z|cov-build|6332|info|> Set COVERITY_COMMON_TEMP to C:/Windows/TEMP
+2018-01-21T13:06:44.369801Z|cov-build|6332|info|> Set COVERITY_IDIR to D:/Projects/demo-1
+2018-01-21T13:06:44.370801Z|cov-build|6332|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-e7d6b9917fd712199c1c993e63c807ad.s
+2018-01-21T13:06:44.370801Z|cov-build|6332|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-e7d6b9917fd712199c1c993e63c807ad.m
+2018-01-21T13:06:44.370801Z|cov-build|6332|info|> Set COVERITY_OUTPUT_ENCODING to GBK
+2018-01-21T13:06:44.371801Z|cov-build|6332|info|> Set COVERITY_SYSTEM_ENCODING to GBK
+2018-01-21T13:06:44.371801Z|cov-build|6332|info|> Set COVERITY_EMIT to D:/Projects/demo-1/emit
+2018-01-21T13:06:44.372801Z|cov-build|6332|info|> Set COVERITY_USING_CYGWIN to False
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> Dumping configuration:
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> User/default configuration:
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> Configuration read from: command-line
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\coverity_config.xml
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>     Node: prevent
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>       Node: dir Value: D:\Projects\demo-1
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\coverity_config.xml
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0\coverity_config.xml
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0\coverity_config.xml
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0\coverity_config.xml
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>     Node: include Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_link-config-0\coverity_config.xml
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0\coverity_config.xml
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>     Node: build
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>       Node: compiler
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: template_compiler Value: true
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: comp_name Value: cl
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: comp_translator Value: msvc
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: comp_lang Value: C/C++
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: comp_generic Value: msvc
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>       Node: options
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: id Value: msvc-cl-.*
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0/../user_nodefs.h
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>           Node: var_name Value: cov_instrument_config_version
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>             Node: var_value Value: 3
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.373801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_header_path
+2018-01-21T13:06:44.374801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.374801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.374801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
+2018-01-21T13:06:44.375801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.375801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_name
+2018-01-21T13:06:44.375801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.375801Z|cov-build|6332|info|>             Node: platform_name Value: x64
+2018-01-21T13:06:44.375801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-01-21T13:06:44.375801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.375801Z|cov-build|6332|info|>             Node: platform_name Value: x86
+2018-01-21T13:06:44.376801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-01-21T13:06:44.376801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.377801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_path
+2018-01-21T13:06:44.377801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.377801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.377801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.377801Z|cov-build|6332|info|>         Node: begin_command_line_config
+2018-01-21T13:06:44.378801Z|cov-build|6332|info|>       Node: options
+2018-01-21T13:06:44.378801Z|cov-build|6332|info|>         Node: id Value: msvc_cxx-cl-.*
+2018-01-21T13:06:44.378801Z|cov-build|6332|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0/../user_nodefs.h
+2018-01-21T13:06:44.378801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.378801Z|cov-build|6332|info|>           Node: var_name Value: cov_instrument_config_version
+2018-01-21T13:06:44.378801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.379801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.379801Z|cov-build|6332|info|>             Node: var_value Value: 3
+2018-01-21T13:06:44.379801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.379801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-01-21T13:06:44.379801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.379801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.380801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.380801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.380801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_header_path
+2018-01-21T13:06:44.380801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.380801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.380801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
+2018-01-21T13:06:44.381801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.381801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_name
+2018-01-21T13:06:44.381801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.381801Z|cov-build|6332|info|>             Node: platform_name Value: x64
+2018-01-21T13:06:44.381801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-01-21T13:06:44.381801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.382801Z|cov-build|6332|info|>             Node: platform_name Value: x86
+2018-01-21T13:06:44.382801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-01-21T13:06:44.382801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.382801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_path
+2018-01-21T13:06:44.382801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.383801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.383801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.383801Z|cov-build|6332|info|>         Node: begin_command_line_config
+2018-01-21T13:06:44.383801Z|cov-build|6332|info|>   Node: md5 Value: 418015c53897f958784fe8fd56786420
+2018-01-21T13:06:44.383801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.383801Z|cov-build|6332|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0\coverity_config.xml
+2018-01-21T13:06:44.383801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.384801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.384801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.384801Z|cov-build|6332|info|>     Node: build
+2018-01-21T13:06:44.384801Z|cov-build|6332|info|>       Node: compiler
+2018-01-21T13:06:44.384801Z|cov-build|6332|info|>         Node: template_compiler Value: true
+2018-01-21T13:06:44.384801Z|cov-build|6332|info|>         Node: comp_name Value: devenv
+2018-01-21T13:06:44.384801Z|cov-build|6332|info|>         Node: comp_translator Value: msvc_devenv
+2018-01-21T13:06:44.385801Z|cov-build|6332|info|>         Node: comp_lang Value: C/C++
+2018-01-21T13:06:44.385801Z|cov-build|6332|info|>         Node: comp_generic Value: msvc
+2018-01-21T13:06:44.385801Z|cov-build|6332|info|>       Node: options
+2018-01-21T13:06:44.385801Z|cov-build|6332|info|>         Node: id Value: msvc_devenv-devenv-.*
+2018-01-21T13:06:44.385801Z|cov-build|6332|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_devenv-config-0/../user_nodefs.h
+2018-01-21T13:06:44.385801Z|cov-build|6332|info|>         Node: begin_command_line_config
+2018-01-21T13:06:44.385801Z|cov-build|6332|info|>   Node: md5 Value: 1bd6116a591fe1eeb03a04d0299f415d
+2018-01-21T13:06:44.385801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.386801Z|cov-build|6332|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0\coverity_config.xml
+2018-01-21T13:06:44.386801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.386801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.386801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.386801Z|cov-build|6332|info|>     Node: build
+2018-01-21T13:06:44.386801Z|cov-build|6332|info|>       Node: compiler
+2018-01-21T13:06:44.386801Z|cov-build|6332|info|>         Node: template_compiler Value: true
+2018-01-21T13:06:44.387801Z|cov-build|6332|info|>         Node: comp_name Value: msbuild
+2018-01-21T13:06:44.387801Z|cov-build|6332|info|>         Node: comp_translator Value: msvc_msbuild
+2018-01-21T13:06:44.387801Z|cov-build|6332|info|>         Node: comp_lang Value: C/C++
+2018-01-21T13:06:44.387801Z|cov-build|6332|info|>         Node: comp_generic Value: msvc
+2018-01-21T13:06:44.387801Z|cov-build|6332|info|>       Node: options
+2018-01-21T13:06:44.387801Z|cov-build|6332|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2018-01-21T13:06:44.387801Z|cov-build|6332|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_msbuild-config-0/../user_nodefs.h
+2018-01-21T13:06:44.388801Z|cov-build|6332|info|>         Node: begin_command_line_config
+2018-01-21T13:06:44.388801Z|cov-build|6332|info|>   Node: md5 Value: 90758a4508778ab76c418f64362bed29
+2018-01-21T13:06:44.388801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.388801Z|cov-build|6332|info|> Configuration read from: D:\Coverity\Coverity Static Analysis\config\template-msvc_link-config-0\coverity_config.xml
+2018-01-21T13:06:44.388801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.388801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.388801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>     Node: build
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>       Node: compiler
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>         Node: template_compiler Value: true
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>         Node: comp_name Value: link
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>         Node: comp_translator Value: msvc_link
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>         Node: comp_lang Value: C/C++
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>         Node: comp_generic Value: msvc
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>       Node: options
+2018-01-21T13:06:44.389801Z|cov-build|6332|info|>         Node: id Value: msvc_link-link-.*
+2018-01-21T13:06:44.390801Z|cov-build|6332|info|>         Node: opt_preinclude_file Value: D:\Coverity\Coverity Static Analysis\config\template-msvc_link-config-0/../user_nodefs.h
+2018-01-21T13:06:44.390801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.390801Z|cov-build|6332|info|>           Node: var_name Value: cov_instrument_config_version
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>             Node: var_value Value: 3
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_header_path
+2018-01-21T13:06:44.391801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.392801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.392801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
+2018-01-21T13:06:44.392801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.392801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_name
+2018-01-21T13:06:44.392801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.392801Z|cov-build|6332|info|>             Node: platform_name Value: x64
+2018-01-21T13:06:44.393801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-01-21T13:06:44.393801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.393801Z|cov-build|6332|info|>             Node: platform_name Value: x86
+2018-01-21T13:06:44.393801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-01-21T13:06:44.393801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.394801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_path
+2018-01-21T13:06:44.394801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.394801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.394801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.394801Z|cov-build|6332|info|>         Node: begin_command_line_config
+2018-01-21T13:06:44.394801Z|cov-build|6332|info|>   Node: md5 Value: 2bb6e0abf3bbde37b34c8526ad9423ce
+2018-01-21T13:06:44.394801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|> Cached template configuration instances:
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\2b2c2e14af5a82ba3d0ae96bc79f5432\coverity_config.xml
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|>     Node: include Value: D:\Projects\demo-1\emit\LEE\config\2b2c2e14af5a82ba3d0ae96bc79f5432\msvc_link-config-0\coverity_config.xml
+2018-01-21T13:06:44.418801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\2b2c2e14af5a82ba3d0ae96bc79f5432\msvc_link-config-0\coverity_config.xml
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>     Node: build
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>       Node: compiler
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>         Node: comp_name Value: link
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>         Node: comp_dir Value: D:\Microsoft Visual Studio 9.0\VC\bin
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>         Node: comp_translator Value: msvc_link
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>         Node: comp_lang Value: C/C++
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>         Node: comp_front_end Value: cov-emit
+2018-01-21T13:06:44.419801Z|cov-build|6332|info|>         Node: comp_desc Value: Microsoft Visual Studio Linker (CIT)
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: comp_cxx Value: true
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: comp_generic Value: msvc
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: comp_require
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: id Value: msvc_link-link-2b2c2e14af5a82ba3d0ae96bc79f5432-0
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: target_platform_fn Value: microsoft
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: is_compiler Value: false
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: is_linker Value: true
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>       Node: options
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: id Value: msvc_link-link-2b2c2e14af5a82ba3d0ae96bc79f5432-0
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: instrument_predicates
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: insert
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: insertion_string Value: /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: follows_regex Value: .
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: var_name Value: cov_instrument_config_version
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: var_value Value: 3
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_header_path
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_name
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: platform_name Value: x64
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: platform_name Value: x86
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_path
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: template_config_option_id Value: msvc_link-link-.*
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>         Node: expand
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>           Node: options
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: args_from_env_var
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>               Node: add Value: CL
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: includes_from_env_var Value: INCLUDE
+2018-01-21T13:06:44.420801Z|cov-build|6332|info|>             Node: includes_from_env_var_are_sys_includes Value: true
+2018-01-21T13:06:44.421801Z|cov-build|6332|info|>             Node: intern_split_response_file_fn Value: msvc_split
+2018-01-21T13:06:44.421801Z|cov-build|6332|info|>             Node: replace_arg_regex
+2018-01-21T13:06:44.421801Z|cov-build|6332|info|>               Node: replace Value: @(.*)
+2018-01-21T13:06:44.421801Z|cov-build|6332|info|>               Node: with Value: --coverity_resp_file=$1
+2018-01-21T13:06:44.422801Z|cov-build|6332|info|>         Node: pre_trans
+2018-01-21T13:06:44.422801Z|cov-build|6332|info|>           Node: options
+2018-01-21T13:06:44.422801Z|cov-build|6332|info|>             Node: intern_trans Value: msvc_pre_translate
+2018-01-21T13:06:44.422801Z|cov-build|6332|info|>         Node: begin_command_line_config
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|>   Node: md5 Value: 9ed6ad290bcecc780d9c215bb1bd4bee
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\coverity_config.xml
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|>     Node: include Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity_config.xml
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|>     Node: include Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity_config.xml
+2018-01-21T13:06:44.423801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.424801Z|cov-build|6332|info|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity_config.xml
+2018-01-21T13:06:44.424801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.424801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.424801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.424801Z|cov-build|6332|info|>     Node: build
+2018-01-21T13:06:44.424801Z|cov-build|6332|info|>       Node: compiler
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_name Value: cl
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_dir Value: D:\Microsoft Visual Studio 9.0\VC\bin
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_translator Value: msvc
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_lang Value: C/C++
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_front_end Value: cov-emit
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_desc Value: Microsoft Visual Studio (CIT)
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_next_type Value: msvc_cxx
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_generic Value: msvc
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: comp_require
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: id Value: msvc-cl-1500-f8703234ba91c40bf14f77fd597c482f-0
+2018-01-21T13:06:44.425801Z|cov-build|6332|info|>         Node: version Value: 1500
+2018-01-21T13:06:44.426801Z|cov-build|6332|info|>         Node: could_require_regen Value: true
+2018-01-21T13:06:44.426801Z|cov-build|6332|info|>         Node: is_compiler Value: true
+2018-01-21T13:06:44.426801Z|cov-build|6332|info|>         Node: is_linker Value: true
+2018-01-21T13:06:44.427801Z|cov-build|6332|info|>         Node: use_mspch Value: true
+2018-01-21T13:06:44.427801Z|cov-build|6332|info|>         Node: target_platform Value: x86
+2018-01-21T13:06:44.427801Z|cov-build|6332|info|>       Node: options
+2018-01-21T13:06:44.427801Z|cov-build|6332|info|>         Node: id Value: msvc-cl-1500-f8703234ba91c40bf14f77fd597c482f-0
+2018-01-21T13:06:44.427801Z|cov-build|6332|info|>         Node: instrument_predicates
+2018-01-21T13:06:44.427801Z|cov-build|6332|info|>           Node: insert
+2018-01-21T13:06:44.427801Z|cov-build|6332|info|>             Node: insertion_string Value: /Gm- /I"[[:cov_lib_header_path:]]"
+2018-01-21T13:06:44.427801Z|cov-build|6332|info|>             Node: precedes_regex Value: (^|\s)[-/]link
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>             Node: follows_regex Value: (^|\s)@\S+
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>             Node: follows_regex Value: (^|\s)/Gm
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>           Node: if
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>             Node: conditions
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>               Node: cond
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>                 Node: contains_regex Value: [-/]link]
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>             Node: then
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>               Node: insert
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>                 Node: insertion_string Value: /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
+2018-01-21T13:06:44.428801Z|cov-build|6332|info|>                 Node: follows_regex Value: [-/]link
+2018-01-21T13:06:44.429801Z|cov-build|6332|info|>           Node: else
+2018-01-21T13:06:44.429801Z|cov-build|6332|info|>             Node: insert
+2018-01-21T13:06:44.429801Z|cov-build|6332|info|>               Node: insertion_string Value: /link /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
+2018-01-21T13:06:44.429801Z|cov-build|6332|info|>               Node: follows_regex Value: .*
+2018-01-21T13:06:44.429801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.429801Z|cov-build|6332|info|>           Node: var_name Value: cov_instrument_config_version
+2018-01-21T13:06:44.430801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.430801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.430801Z|cov-build|6332|info|>             Node: var_value Value: 3
+2018-01-21T13:06:44.430801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.430801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_header_path
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_name
+2018-01-21T13:06:44.431801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.432801Z|cov-build|6332|info|>             Node: platform_name Value: x64
+2018-01-21T13:06:44.432801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-01-21T13:06:44.432801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.432801Z|cov-build|6332|info|>             Node: platform_name Value: x86
+2018-01-21T13:06:44.432801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-01-21T13:06:44.432801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.432801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_path
+2018-01-21T13:06:44.432801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.433801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.433801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.433801Z|cov-build|6332|info|>         Node: template_config_option_id Value: msvc-cl-.*
+2018-01-21T13:06:44.433801Z|cov-build|6332|info|>         Node: preprocess_output_dir_switch Value: /Fo
+2018-01-21T13:06:44.433801Z|cov-build|6332|info|>         Node: preprocess_remove_arg Value: [-/]Fo.+
+2018-01-21T13:06:44.433801Z|cov-build|6332|info|>         Node: preprocess_remove_arg Value: [-/]c
+2018-01-21T13:06:44.433801Z|cov-build|6332|info|>         Node: preprocess_remove_arg Value: [-/]WX
+2018-01-21T13:06:44.433801Z|cov-build|6332|info|>         Node: preprocess_remove_next_arg Value: [-/]Fo
+2018-01-21T13:06:44.434801Z|cov-build|6332|info|>         Node: preprocess_response_file
+2018-01-21T13:06:44.434801Z|cov-build|6332|info|>           Node: switch Value: @
+2018-01-21T13:06:44.434801Z|cov-build|6332|info|>           Node: suffix Value: .rsp
+2018-01-21T13:06:44.434801Z|cov-build|6332|info|>           Node: format Value: default
+2018-01-21T13:06:44.434801Z|cov-build|6332|info|>         Node: preprocess_switch Value: /E
+2018-01-21T13:06:44.434801Z|cov-build|6332|info|>         Node: preprocess_compile_switch Value: /C
+2018-01-21T13:06:44.434801Z|cov-build|6332|info|>         Node: preprocess_output Value: -
+2018-01-21T13:06:44.435801Z|cov-build|6332|info|>         Node: fix_macro_regex Value: replace/-D(.*)/\/D$1
+2018-01-21T13:06:44.435801Z|cov-build|6332|info|>         Node: pre_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-macro-compat.h
+2018-01-21T13:06:44.435801Z|cov-build|6332|info|>         Node: pre_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-compiler-compat.h
+2018-01-21T13:06:44.435801Z|cov-build|6332|info|>         Node: prepend_arg Value: --no_stdarg_builtin
+2018-01-21T13:06:44.435801Z|cov-build|6332|info|>         Node: prepend_arg Value: --microsoft
+2018-01-21T13:06:44.435801Z|cov-build|6332|info|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2018-01-21T13:06:44.436801Z|cov-build|6332|info|>         Node: prepend_arg Value: -w
+2018-01-21T13:06:44.436801Z|cov-build|6332|info|>         Node: prepend_arg Value: --no_predefines
+2018-01-21T13:06:44.436801Z|cov-build|6332|info|>         Node: prepend_arg Value: --comp_ver
+2018-01-21T13:06:44.436801Z|cov-build|6332|info|>         Node: prepend_arg Value: 1500
+2018-01-21T13:06:44.436801Z|cov-build|6332|info|>         Node: prepend_arg Value: --size_t_type=j
+2018-01-21T13:06:44.436801Z|cov-build|6332|info|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2018-01-21T13:06:44.436801Z|cov-build|6332|info|>         Node: prepend_arg Value: --type_sizes=x8li4s2ed8fP4
+2018-01-21T13:06:44.436801Z|cov-build|6332|info|>         Node: prepend_arg Value: --type_alignments=x8li4s2ed8fP4
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: prepend_arg Value: --char_bit_size=8
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: prepend_arg Value: --enable_declspec
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: prepend_arg Value: --calling_convention_group
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: prepend_arg Value: default,cdecl
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: skip_arg Value: /E
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: skip_arg Value: /EP
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: skip_arg Value: /P
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: skip_arg Value: /Zg
+2018-01-21T13:06:44.437801Z|cov-build|6332|info|>         Node: skip_arg Value: /Zs
+2018-01-21T13:06:44.438801Z|cov-build|6332|info|>         Node: skip_arg Value: /HELP
+2018-01-21T13:06:44.438801Z|cov-build|6332|info|>         Node: skip_arg Value: /help
+2018-01-21T13:06:44.438801Z|cov-build|6332|info|>         Node: skip_arg Value: /ZW
+2018-01-21T13:06:44.438801Z|cov-build|6332|info|>         Node: skip_arg Value: /?
+2018-01-21T13:06:44.438801Z|cov-build|6332|info|>         Node: skip_arg Value: -E
+2018-01-21T13:06:44.438801Z|cov-build|6332|info|>         Node: skip_arg Value: -EP
+2018-01-21T13:06:44.438801Z|cov-build|6332|info|>         Node: skip_arg Value: -P
+2018-01-21T13:06:44.438801Z|cov-build|6332|info|>         Node: skip_arg Value: -Zg
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_arg Value: -Zs
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_arg Value: -?
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_arg Value: -HELP
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_arg Value: -help
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_arg Value: -ZW
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_arg Value: -?
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_substring Value: /CLR
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_substring Value: -CLR
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_substring Value: /clr
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_substring Value: -clr
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: skip_file Value: conftest\.cpp$
+2018-01-21T13:06:44.439801Z|cov-build|6332|info|>         Node: opt_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0/../user_nodefs.h
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>         Node: expand
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>           Node: options
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>             Node: args_from_env_var
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>               Node: add Value: CL
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>             Node: includes_from_env_var Value: INCLUDE
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>             Node: includes_from_env_var_are_sys_includes Value: true
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>             Node: intern_split_response_file_fn Value: msvc_split
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>             Node: replace_arg_regex
+2018-01-21T13:06:44.440801Z|cov-build|6332|info|>               Node: replace Value: @(.*)
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>               Node: with Value: --coverity_resp_file=$1
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>         Node: pre_trans
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>           Node: options
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>             Node: intern_trans Value: msvc_pre_translate
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>         Node: trans
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>           Node: options
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>             Node: prepend_arg Value: --c
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>         Node: begin_command_line_config
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|>   Node: md5 Value: 457c5a59147a61c3ca5a08bf643cdcdb
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.441801Z|cov-build|6332|info|> Preincluded file begin: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-macro-compat.h
+2018-01-21T13:06:44.442801Z|cov-build|6332|info|> ﻿
+2018-01-21T13:06:44.442801Z|cov-build|6332|info|> #if !(defined(_M_IX86) || defined(__coverity_undefine__M_IX86))
+2018-01-21T13:06:44.442801Z|cov-build|6332|info|> #define _M_IX86 600
+2018-01-21T13:06:44.442801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.442801Z|cov-build|6332|info|> #if !(defined(_INTEGRAL_MAX_BITS) || defined(__coverity_undefine__INTEGRAL_MAX_BITS))
+2018-01-21T13:06:44.442801Z|cov-build|6332|info|> #define _INTEGRAL_MAX_BITS 64
+2018-01-21T13:06:44.442801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.442801Z|cov-build|6332|info|> #if !(defined(_MSC_BUILD) || defined(__coverity_undefine__MSC_BUILD))
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #define _MSC_BUILD 8
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #if !(defined(_MSC_EXTENSIONS) || defined(__coverity_undefine__MSC_EXTENSIONS))
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #define _MSC_EXTENSIONS 1
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #if !(defined(_MSC_FULL_VER) || defined(__coverity_undefine__MSC_FULL_VER))
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #define _MSC_FULL_VER 150021022
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.443801Z|cov-build|6332|info|> #if !(defined(_MSC_VER) || defined(__coverity_undefine__MSC_VER))
+2018-01-21T13:06:44.444801Z|cov-build|6332|info|> #define _MSC_VER 1500
+2018-01-21T13:06:44.444801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.444801Z|cov-build|6332|info|> #if !(defined(_MT) || defined(__coverity_undefine__MT))
+2018-01-21T13:06:44.444801Z|cov-build|6332|info|> #define _MT 1
+2018-01-21T13:06:44.444801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.444801Z|cov-build|6332|info|> #if !(defined(_M_IX86_FP) || defined(__coverity_undefine__M_IX86_FP))
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> #define _M_IX86_FP 0
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> #if !(defined(_WIN32) || defined(__coverity_undefine__WIN32))
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> #define _WIN32 1
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> #if !(defined(__COUNTER__) || defined(__coverity_undefine___COUNTER__))
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> #define __COUNTER__ 0
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.445801Z|cov-build|6332|info|> Preincluded file end: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-macro-compat.h
+2018-01-21T13:06:44.446801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.446801Z|cov-build|6332|info|> Preincluded file begin: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-compiler-compat.h
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|> ﻿
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|> #if !defined(COVERITY_COMPAT_2dc32581caf853d96ea89aba084e725a)
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|> #define COVERITY_COMPAT_2dc32581caf853d96ea89aba084e725a
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|> /*
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|>   Copyright (c) 2017 Synopsys, Inc. All rights reserved worldwide.
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|>   The information contained in this file is the proprietary and confidential
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|>   information of Synopsys, Inc. and its licensors, and is supplied subject to,
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|>   and may be used only by Synopsys customers in accordance with the terms and
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|>   conditions of a previously executed license agreement between Synopsys and
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|>   that customer.
+2018-01-21T13:06:44.447801Z|cov-build|6332|info|> */
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> /* DO NOT MODIFY THE CONTENTS OF THIS FILE */
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> #define _export
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> #if defined(_Wp64)
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> typedef __COVERITY_SIZE_TYPE__ size_t;
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.448801Z|cov-build|6332|info|> #if defined(_MSC_FULL_VER) && _MSC_FULL_VER >= 190023506
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> #pragma builtin begin
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> extern float __builtin_huge_valf();
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> extern float __builtin_nanf(const char*);
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> extern float __builtin_nansf(const char*);
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> extern double __builtin_huge_val();
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> extern double __builtin_nan(const char*);
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> extern double __builtin_nans(const char*);
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> #pragma builtin end
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.449801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #if defined(_DEBUG) && defined (_CRTDBG_MAP_ALLOC)
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef malloc
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef calloc
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef realloc
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef free
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef _malloca
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef _strdup
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef _wcsdup
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef _mbsdup
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef _wtempnam
+2018-01-21T13:06:44.450801Z|cov-build|6332|info|> #nodef _fullpath
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> #nodef _wfullpath
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> #nodef _wgetcwd
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> #nodef _wgetdcwd
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> #nodef getchar
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> #endif /* COVERITY_COMPAT_2dc32581caf853d96ea89aba084e725a */
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.451801Z|cov-build|6332|info|> Preincluded file end: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc-config-0\coverity-compiler-compat.h
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|> Configuration read from: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity_config.xml
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|> Node: coverity
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|>   Node: cit_version Value: 1
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|>   Node: config
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|>     Node: build
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|>       Node: compiler
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|>         Node: comp_name Value: cl
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|>         Node: comp_dir Value: D:\Microsoft Visual Studio 9.0\VC\bin
+2018-01-21T13:06:44.452801Z|cov-build|6332|info|>         Node: comp_translator Value: msvc_cxx
+2018-01-21T13:06:44.453801Z|cov-build|6332|info|>         Node: comp_lang Value: C/C++
+2018-01-21T13:06:44.453801Z|cov-build|6332|info|>         Node: comp_front_end Value: cov-emit
+2018-01-21T13:06:44.453801Z|cov-build|6332|info|>         Node: comp_desc Value: Microsoft Visual Studio (C++) (CIT)
+2018-01-21T13:06:44.453801Z|cov-build|6332|info|>         Node: comp_cxx Value: true
+2018-01-21T13:06:44.453801Z|cov-build|6332|info|>         Node: comp_generic Value: msvc
+2018-01-21T13:06:44.453801Z|cov-build|6332|info|>         Node: comp_require
+2018-01-21T13:06:44.453801Z|cov-build|6332|info|>         Node: id Value: msvc_cxx-cl-1500-f8703234ba91c40bf14f77fd597c482f-0
+2018-01-21T13:06:44.453801Z|cov-build|6332|info|>         Node: version Value: 1500
+2018-01-21T13:06:44.454801Z|cov-build|6332|info|>         Node: could_require_regen Value: true
+2018-01-21T13:06:44.454801Z|cov-build|6332|info|>         Node: is_compiler Value: true
+2018-01-21T13:06:44.454801Z|cov-build|6332|info|>         Node: is_linker Value: true
+2018-01-21T13:06:44.454801Z|cov-build|6332|info|>         Node: use_mspch Value: true
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>         Node: target_platform Value: x86
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>       Node: options
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>         Node: id Value: msvc_cxx-cl-1500-f8703234ba91c40bf14f77fd597c482f-0
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>         Node: instrument_predicates
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>           Node: insert
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>             Node: insertion_string Value: /Gm- /I"[[:cov_lib_header_path:]]"
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>             Node: precedes_regex Value: (^|\s)[-/]link
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>             Node: follows_regex Value: (^|\s)@\S+
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>             Node: follows_regex Value: (^|\s)/Gm
+2018-01-21T13:06:44.455801Z|cov-build|6332|info|>           Node: if
+2018-01-21T13:06:44.456801Z|cov-build|6332|info|>             Node: conditions
+2018-01-21T13:06:44.456801Z|cov-build|6332|info|>               Node: cond
+2018-01-21T13:06:44.456801Z|cov-build|6332|info|>                 Node: contains_regex Value: [-/]link]
+2018-01-21T13:06:44.456801Z|cov-build|6332|info|>             Node: then
+2018-01-21T13:06:44.456801Z|cov-build|6332|info|>               Node: insert
+2018-01-21T13:06:44.456801Z|cov-build|6332|info|>                 Node: insertion_string Value: /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
+2018-01-21T13:06:44.457801Z|cov-build|6332|info|>                 Node: follows_regex Value: [-/]link
+2018-01-21T13:06:44.457801Z|cov-build|6332|info|>           Node: else
+2018-01-21T13:06:44.457801Z|cov-build|6332|info|>             Node: insert
+2018-01-21T13:06:44.457801Z|cov-build|6332|info|>               Node: insertion_string Value: /link /LIBPATH:"[[:cov_lib_path:]]" [[:cov_lib_name:]]
+2018-01-21T13:06:44.457801Z|cov-build|6332|info|>               Node: follows_regex Value: .*
+2018-01-21T13:06:44.457801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.458801Z|cov-build|6332|info|>           Node: var_name Value: cov_instrument_config_version
+2018-01-21T13:06:44.458801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.458801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.458801Z|cov-build|6332|info|>             Node: var_value Value: 3
+2018-01-21T13:06:44.458801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.458801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-01-21T13:06:44.458801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.459801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.459801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.459801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.459801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_header_path
+2018-01-21T13:06:44.459801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.459801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.459801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\sdk\runtime\ta-runtime
+2018-01-21T13:06:44.460801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.460801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_name
+2018-01-21T13:06:44.460801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.460801Z|cov-build|6332|info|>             Node: platform_name Value: x64
+2018-01-21T13:06:44.460801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-01-21T13:06:44.460801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.460801Z|cov-build|6332|info|>             Node: platform_name Value: x86
+2018-01-21T13:06:44.461801Z|cov-build|6332|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-01-21T13:06:44.461801Z|cov-build|6332|info|>         Node: instrument_variable
+2018-01-21T13:06:44.461801Z|cov-build|6332|info|>           Node: var_name Value: cov_lib_path
+2018-01-21T13:06:44.461801Z|cov-build|6332|info|>           Node: cond_platform_value
+2018-01-21T13:06:44.461801Z|cov-build|6332|info|>             Node: platform_name Value: all
+2018-01-21T13:06:44.461801Z|cov-build|6332|info|>             Node: var_value Value: D:\Coverity\Coverity Static Analysis\lib
+2018-01-21T13:06:44.461801Z|cov-build|6332|info|>         Node: template_config_option_id Value: msvc_cxx-cl-.*
+2018-01-21T13:06:44.461801Z|cov-build|6332|info|>         Node: preprocess_output_dir_switch Value: /Fo
+2018-01-21T13:06:44.462801Z|cov-build|6332|info|>         Node: preprocess_remove_arg Value: [-/]Fo.+
+2018-01-21T13:06:44.462801Z|cov-build|6332|info|>         Node: preprocess_remove_arg Value: [-/]c
+2018-01-21T13:06:44.462801Z|cov-build|6332|info|>         Node: preprocess_remove_arg Value: [-/]WX
+2018-01-21T13:06:44.462801Z|cov-build|6332|info|>         Node: preprocess_remove_next_arg Value: [-/]Fo
+2018-01-21T13:06:44.462801Z|cov-build|6332|info|>         Node: preprocess_response_file
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>           Node: switch Value: @
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>           Node: suffix Value: .rsp
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>           Node: format Value: default
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>         Node: preprocess_switch Value: /E
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>         Node: preprocess_compile_switch Value: /C
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>         Node: preprocess_output Value: -
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>         Node: fix_macro_regex Value: replace/-D(.*)/\/D$1
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>         Node: pre_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-macro-compat.h
+2018-01-21T13:06:44.463801Z|cov-build|6332|info|>         Node: pre_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-compiler-compat.h
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: --no_stdarg_builtin
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: --microsoft
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: -w
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: --no_predefines
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: --comp_ver
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: 1500
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: --size_t_type=j
+2018-01-21T13:06:44.464801Z|cov-build|6332|info|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2018-01-21T13:06:44.465801Z|cov-build|6332|info|>         Node: prepend_arg Value: --type_sizes=w2x8li4s2ed8fP4
+2018-01-21T13:06:44.465801Z|cov-build|6332|info|>         Node: prepend_arg Value: --type_alignments=w2x8li4s2ed8fP4
+2018-01-21T13:06:44.465801Z|cov-build|6332|info|>         Node: prepend_arg Value: --char_bit_size=8
+2018-01-21T13:06:44.465801Z|cov-build|6332|info|>         Node: prepend_arg Value: --enable_declspec
+2018-01-21T13:06:44.465801Z|cov-build|6332|info|>         Node: prepend_arg Value: --calling_convention_group
+2018-01-21T13:06:44.465801Z|cov-build|6332|info|>         Node: prepend_arg Value: default,cdecl
+2018-01-21T13:06:44.465801Z|cov-build|6332|info|>         Node: skip_arg Value: /E
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: /EP
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: /P
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: /Zg
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: /Zs
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: /HELP
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: /help
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: /ZW
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: /?
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: -E
+2018-01-21T13:06:44.466801Z|cov-build|6332|info|>         Node: skip_arg Value: -EP
+2018-01-21T13:06:44.467801Z|cov-build|6332|info|>         Node: skip_arg Value: -P
+2018-01-21T13:06:44.467801Z|cov-build|6332|info|>         Node: skip_arg Value: -Zg
+2018-01-21T13:06:44.467801Z|cov-build|6332|info|>         Node: skip_arg Value: -Zs
+2018-01-21T13:06:44.467801Z|cov-build|6332|info|>         Node: skip_arg Value: -?
+2018-01-21T13:06:44.468801Z|cov-build|6332|info|>         Node: skip_arg Value: -HELP
+2018-01-21T13:06:44.468801Z|cov-build|6332|info|>         Node: skip_arg Value: -help
+2018-01-21T13:06:44.468801Z|cov-build|6332|info|>         Node: skip_arg Value: -ZW
+2018-01-21T13:06:44.468801Z|cov-build|6332|info|>         Node: skip_arg Value: -?
+2018-01-21T13:06:44.468801Z|cov-build|6332|info|>         Node: skip_substring Value: /CLR
+2018-01-21T13:06:44.468801Z|cov-build|6332|info|>         Node: skip_substring Value: -CLR
+2018-01-21T13:06:44.468801Z|cov-build|6332|info|>         Node: skip_substring Value: /clr
+2018-01-21T13:06:44.468801Z|cov-build|6332|info|>         Node: skip_substring Value: -clr
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>         Node: skip_file Value: conftest\.cpp$
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>         Node: opt_preinclude_file Value: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0/../user_nodefs.h
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>         Node: expand
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>           Node: options
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>             Node: args_from_env_var
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>               Node: add Value: CL
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>             Node: includes_from_env_var Value: INCLUDE
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>             Node: includes_from_env_var_are_sys_includes Value: true
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>             Node: intern_split_response_file_fn Value: msvc_split
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>             Node: replace_arg_regex
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>               Node: replace Value: @(.*)
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>               Node: with Value: --coverity_resp_file=$1
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>         Node: pre_trans
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>           Node: options
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>             Node: intern_trans Value: msvc_pre_translate
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>         Node: trans
+2018-01-21T13:06:44.469801Z|cov-build|6332|info|>           Node: options
+2018-01-21T13:06:44.470801Z|cov-build|6332|info|>             Node: prepend_arg Value: --c++
+2018-01-21T13:06:44.470801Z|cov-build|6332|info|>         Node: begin_command_line_config
+2018-01-21T13:06:44.470801Z|cov-build|6332|info|>   Node: md5 Value: 6eb75d5984d21432585d835158765657
+2018-01-21T13:06:44.470801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.470801Z|cov-build|6332|info|> Preincluded file begin: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-macro-compat.h
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> ﻿
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #if !(defined(_M_IX86) || defined(__coverity_undefine__M_IX86))
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #define _M_IX86 600
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #if !(defined(_CPPRTTI) || defined(__coverity_undefine__CPPRTTI))
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #define _CPPRTTI 1
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #if !(defined(_INTEGRAL_MAX_BITS) || defined(__coverity_undefine__INTEGRAL_MAX_BITS))
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #define _INTEGRAL_MAX_BITS 64
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.471801Z|cov-build|6332|info|> #if !(defined(_MSC_BUILD) || defined(__coverity_undefine__MSC_BUILD))
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #define _MSC_BUILD 8
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #if !(defined(_MSC_EXTENSIONS) || defined(__coverity_undefine__MSC_EXTENSIONS))
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #define _MSC_EXTENSIONS 1
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #if !(defined(_MSC_FULL_VER) || defined(__coverity_undefine__MSC_FULL_VER))
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #define _MSC_FULL_VER 150021022
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.472801Z|cov-build|6332|info|> #if !(defined(_MSC_VER) || defined(__coverity_undefine__MSC_VER))
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #define _MSC_VER 1500
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #if !(defined(_MT) || defined(__coverity_undefine__MT))
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #define _MT 1
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #if !(defined(_M_IX86_FP) || defined(__coverity_undefine__M_IX86_FP))
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #define _M_IX86_FP 0
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #if !(defined(_NATIVE_WCHAR_T_DEFINED) || defined(__coverity_undefine__NATIVE_WCHAR_T_DEFINED))
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #define _NATIVE_WCHAR_T_DEFINED 1
+2018-01-21T13:06:44.473801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.474801Z|cov-build|6332|info|> #if !(defined(_WCHAR_T_DEFINED) || defined(__coverity_undefine__WCHAR_T_DEFINED))
+2018-01-21T13:06:44.474801Z|cov-build|6332|info|> #define _WCHAR_T_DEFINED 1
+2018-01-21T13:06:44.474801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.474801Z|cov-build|6332|info|> #if !(defined(_WIN32) || defined(__coverity_undefine__WIN32))
+2018-01-21T13:06:44.474801Z|cov-build|6332|info|> #define _WIN32 1
+2018-01-21T13:06:44.474801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.474801Z|cov-build|6332|info|> #if !(defined(__BOOL_DEFINED) || defined(__coverity_undefine___BOOL_DEFINED))
+2018-01-21T13:06:44.474801Z|cov-build|6332|info|> #define __BOOL_DEFINED 1
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> #if !(defined(__COUNTER__) || defined(__coverity_undefine___COUNTER__))
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> #define __COUNTER__ 0
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> #if !(defined(__cplusplus) || defined(__coverity_undefine___cplusplus))
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> #define __cplusplus 199711L
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.475801Z|cov-build|6332|info|> Preincluded file end: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-macro-compat.h
+2018-01-21T13:06:44.476801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.477801Z|cov-build|6332|info|> Preincluded file begin: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-compiler-compat.h
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|> ﻿
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|> #if !defined(COVERITY_COMPAT_caecf2e139ed15dab5758e813998f5b6)
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|> #define COVERITY_COMPAT_caecf2e139ed15dab5758e813998f5b6
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|> /*
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|>   Copyright (c) 2017 Synopsys, Inc. All rights reserved worldwide.
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|>   The information contained in this file is the proprietary and confidential
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|>   information of Synopsys, Inc. and its licensors, and is supplied subject to,
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|>   and may be used only by Synopsys customers in accordance with the terms and
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|>   conditions of a previously executed license agreement between Synopsys and
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|>   that customer.
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|> */
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.478801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> /* DO NOT MODIFY THE CONTENTS OF THIS FILE */
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> #define _export
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> class type_info;
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> // BZ 50631
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> typedef struct _PMD
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|> {
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|>     int mdisp;
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|>     int pdisp;
+2018-01-21T13:06:44.479801Z|cov-build|6332|info|>     int vdisp;
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> } _PMD;
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> #if defined(_MSC_FULL_VER) && _MSC_FULL_VER >= 190023506
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> #pragma builtin begin
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> extern float __builtin_huge_valf();
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> extern float __builtin_nanf(const char*);
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> extern float __builtin_nansf(const char*);
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> extern double __builtin_huge_val();
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> extern double __builtin_nan(const char*);
+2018-01-21T13:06:44.480801Z|cov-build|6332|info|> extern double __builtin_nans(const char*);
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #pragma builtin end
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #if defined (_DEBUG) && defined(_CRTDBG_MAP_ALLOC)
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #nodef malloc
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #nodef calloc
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #nodef realloc
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #nodef free
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #nodef _malloca
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #nodef _strdup
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #nodef _wcsdup
+2018-01-21T13:06:44.481801Z|cov-build|6332|info|> #nodef _mbsdup
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> #nodef _wtempnam
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> #nodef _fullpath
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> #nodef _wfullpath
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> #nodef _wgetcwd
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> #nodef _wgetdcwd
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> #endif
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> #nodef getchar
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> #endif /* COVERITY_COMPAT_caecf2e139ed15dab5758e813998f5b6 */
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.482801Z|cov-build|6332|info|> Preincluded file end: D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-compiler-compat.h
+2018-01-21T13:06:44.483801Z|cov-build|6332|info|> 
+2018-01-21T13:06:44.631801Z|cov-internal-capture|5344|info|> Running build command: "D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com"  D:\Projects\demo-1\demo-1.sln /Rebuild
+2018-01-21T13:06:44.631801Z|cov-internal-capture|5344|info|> Launching in directory D:/Projects/demo-1
+2018-01-21T13:06:47.933801Z|cov-internal-capture|5344|info|> EXECUTING: "D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com"  D:\Projects\demo-1\demo-1.sln /Rebuild
+2018-01-21T13:06:48.247801Z|cov-internal-capture|5344|info|> EXECUTING: "D:\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe"  D:\Projects\demo-1\demo-1.sln /Rebuild
+2018-01-21T13:06:48.339801Z|cov-internal-capture|5344|info|> [WARNING] Could not determine version of MSVC compiler in the same Visual Studio installation as the invoked devenv. Assuming this is VS 2010, i.e. this devenv supports msbuild reuse.
+2018-01-21T13:06:49.807801Z|cov-internal-capture|5344|info|> EXECUTING: cl.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000163526644.rsp" /nologo /errorReport:queue
+2018-01-21T13:06:50.097801Z|cov-internal-capture|5344|info|> EXECUTING: cl.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000163526644.rsp" /nologo /errorReport:queue
+2018-01-21T13:06:50.314801Z|cov-internal-capture|5344|info|> EXECUTING: mspdbsrv.exe -start -spawn
+2018-01-21T13:06:55.954801Z|cov-internal-capture|5344|info|> CWD: d:\Projects\demo-1\demo-1\
+2018-01-21T13:06:55.954801Z|cov-internal-capture|5344|info|> COMPILING: "D:\Coverity\Coverity Static Analysis\bin\cov-translate.exe" cl.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000163526644.rsp" /nologo /errorReport:queue
+2018-01-21T13:06:55.954801Z|cov-internal-capture|5344|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-e7d6b9917fd712199c1c993e63c807ad.s
+2018-01-21T13:06:56.179801Z|cov-translate|3836|output|> Using cached template compiler configuration instance D:/Projects/demo-1/emit/LEE/config/f8703234ba91c40bf14f77fd597c482f/coverity_config.xml
+2018-01-21T13:06:56.213801Z|cov-translate|3836|output|> COV_TRANSLATE EXPANDED ARGS: "/Od" "-D_MBCS" "/Gm" "/EHsc" "/RTC1" "/MDd" "/FoDebug\" "/FdDebug\vc90.pdb" "/W3" "/c" "/ZI" "/TP" "..\demo-1.cpp" "/nologo" "/errorReport:queue" "-coverity_env_var_include,--sys_include=D:\Microsoft Visual Studio 9.0\VC\include" "-coverity_env_var_include,--sys_include=D:\Microsoft Visual Studio 9.0\VC\atlmfc\include" "-coverity_env_var_include,--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\\include" "-coverity_env_var_include,--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\include"
+2018-01-21T13:06:56.304801Z|cov-translate|3836|output|> [STATUS] Compiling ..\demo-1.cpp
+2018-01-21T13:06:56.304801Z|cov-translate|3836|output|> "D:/Coverity/Coverity Static Analysis/bin/cov-emit.exe" --dir=D:\Projects\demo-1 --ignore_path=C:\Windows\TEMP\cov-SYSTEM\055fd84221597df805825acbbfea0577\cov-configure --ignore_path=C:\Windows\TEMP\cov-SYSTEM\055fd84221597df805825acbbfea0577\cov-SYSTEM\830077aa929405f83a5820ce009f40ba --no_stdarg_builtin --microsoft --no_predefined_cplusplus -w --no_predefines --comp_ver 1500 --char_bit_size=8 --enable_declspec --calling_convention_group default,cdecl --pre_preinclude D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-macro-compat.h --pre_preinclude D:\Projects\demo-1\emit\LEE\config\f8703234ba91c40bf14f77fd597c482f\msvc_cxx-config-0\coverity-compiler-compat.h --preinclude "D:\Coverity\Coverity Static Analysis\config\template-msvc-config-0/../user_nodefs.h" --c++ --microsoft_version 1500 "--sys_include=D:\Microsoft Visual Studio 9.0\VC\include" "--sys_include=D:\Microsoft Visual Studio 9.0\VC\atlmfc\include" "--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\\include" "--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\include" --no_alternative_tokens --wchar_t_keyword --typeinfo_nostd --exceptions -D_CPPUNWIND -D_DEBUG=1 -D_DLL=1 -D_MBCS -D_MT=1 -D_NATIVE_WCHAR_T_DEFINED=1 -D_WCHAR_T_DEFINED=1 -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i --import_dir Debug -I Debug ../demo-1.cpp 
+2018-01-21T13:07:02.037801Z|cov-translate|3836|output|> Emit for file 'D:/Projects/demo-1/demo-1.cpp' complete.
+2018-01-21T13:07:02.131801Z|cov-translate|3836|output|> 
+2018-01-21T13:07:02.267801Z|cov-internal-capture|5344|info|> EXECUTING: link.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000263526644.rsp" /NOLOGO /ERRORREPORT:QUEUE
+2018-01-21T13:07:02.644801Z|cov-internal-capture|5344|info|> EXECUTING: link.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000263526644.rsp" /NOLOGO /ERRORREPORT:QUEUE
+2018-01-21T13:07:03.095801Z|cov-internal-capture|5344|info|> CWD: d:\Projects\demo-1\demo-1\
+2018-01-21T13:07:03.096801Z|cov-internal-capture|5344|info|> COMPILING: "D:\Coverity\Coverity Static Analysis\bin\cov-translate.exe" link.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000263526644.rsp" /NOLOGO /ERRORREPORT:QUEUE
+2018-01-21T13:07:03.096801Z|cov-internal-capture|5344|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-e7d6b9917fd712199c1c993e63c807ad.s
+2018-01-21T13:07:03.320801Z|cov-translate|4332|output|> Using cached template compiler configuration instance D:/Projects/demo-1/emit/LEE/config/2b2c2e14af5a82ba3d0ae96bc79f5432/coverity_config.xml
+2018-01-21T13:07:03.339801Z|cov-translate|4332|output|> COV_TRANSLATE EXPANDED ARGS: "/OUT:D:\Projects\demo-1\Debug\demo-1.exe" "/MANIFEST" "/MANIFESTFILE:Debug\demo-1.exe.intermediate.manifest" "/MANIFESTUAC:level='asInvoker' uiAccess='false'" "-DEBUG" "/PDB:D:\Projects\demo-1\Debug\demo-1.pdb" "-DYNAMICBASE" "/NXCOMPAT" "/MACHINE:X86" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" ".\Debug\demo-1.obj" "/NOLOGO" "/ERRORREPORT:QUEUE" "-coverity_env_var_include,--sys_include=D:\Microsoft Visual Studio 9.0\VC\include" "-coverity_env_var_include,--sys_include=D:\Microsoft Visual Studio 9.0\VC\atlmfc\include" "-coverity_env_var_include,--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\\include" "-coverity_env_var_include,--sys_include=C:\Program Files\\Microsoft SDKs\Windows\v6.0A\include"
+2018-01-21T13:07:03.360801Z|cov-translate|4332|output|> 
+2018-01-21T13:07:03.618801Z|cov-internal-capture|5344|info|> EXECUTING: mt.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000363526644.rsp" /nologo
+2018-01-21T13:07:03.975801Z|cov-internal-capture|5344|info|> EXECUTING: mt.exe @"d:\Projects\demo-1\demo-1\Debug\RSP00000363526644.rsp" /nologo
+2018-01-21T13:07:04.198801Z|cov-internal-capture|5344|info|> EXECUTING: cmd.exe /C ""d:\Projects\demo-1\demo-1\Debug\BAT00000463526644.bat""
+2018-01-21T13:07:04.536801Z|cov-internal-capture|5344|info|> EXECUTING: cmd.exe /C ""d:\Projects\demo-1\demo-1\Debug\BAT00000463526644.bat""
+2018-01-21T13:07:04.865801Z|cov-build|6332|info|> 
+2018-01-21T13:07:04.865801Z|cov-build|6332|info|> Build time (cov-build overall): 00:00:25.052000
+2018-01-21T13:07:04.865801Z|cov-build|6332|info|> 
+2018-01-21T13:07:04.869801Z|cov-build|6332|info|> Build time (C/C++ emits total): 00:00:06.226000
+2018-01-21T13:07:04.869801Z|cov-build|6332|info|> 
+2018-01-21T13:07:04.873801Z|cov-build|6332|info|> Emitted 1 C/C++ compilation units (100%) successfully
+2018-01-21T13:07:04.873801Z|cov-build|6332|info|> 
+2018-01-21T13:07:04.873801Z|cov-build|6332|info|> 1 C/C++ compilation units (100%) are ready for analysis
+2018-01-21T13:07:04.873801Z|cov-build|6332|info|> The cov-build utility completed successfully.
+2018-01-21T13:07:04.888801Z|cov-build|6332|info|> 

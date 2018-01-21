@@ -1,19 +1,19 @@
 timer                                            ms      calls
 --------------------------------------------------------------
-sequential initialization                       203          1
+sequential initialization                       156          1
   Looking for translation units                   0          1
-  Computing links for translation units          47          1
-  xfer symbol cache                               0          1
-  Computing virtual overrides                    31          1
-  Computing callgraph                            31          1
-  Topologically sorting functions                16          1
-  (left over)                                    78
-Computing node costs                             16          1
-Analysis run                                   3276          1
-  loadFromEmit                                  171        565
+  Computing links for translation units          46          1
+  xfer symbol cache                              16          1
+  Computing virtual overrides                    16          1
+  Computing callgraph                            16          1
+  Topologically sorting functions                 0          1
+  (left over)                                    62
+Computing node costs                              0          1
+Analysis run                                   2839          1
+  loadFromEmit                                  186        565
     RELAX_NULL_RETURN                             0        187
     RELAX_ALLOC                                   0        187
-    ARRAY_VS_SINGLETON_pass1                     16        191
+    ARRAY_VS_SINGLETON_pass1                      0        191
     CHECKED_RETURN_pass1                          0        191
     NULL_RETURNS_pass1                            0        191
     CTOR_DTOR_LEAK_pass1                          0        191
@@ -58,7 +58,7 @@ Analysis run                                   3276          1
   RELAX_UNINIT_ALLOC                              0          1
   LOCK_FINDER_TOPDOWN                             0          1
   LOCK_ORDER                                      0          1
-  FUNCTION_METRICS                               16        188
+  FUNCTION_METRICS                                0        188
   ASSERT_SIDE_EFFECT                              0          1
   BAD_ALLOC_ARITHMETIC                            0          1
   BAD_ALLOC_STRLEN                                0          1
@@ -86,7 +86,7 @@ Analysis run                                   3276          1
   UNINTENDED_INTEGER_DIVISION                     0          1
   UNREACHABLE                                     0          1
   UNUSED_VALUE                                    0          1
-types/warning pass                               15          1
+types/warning pass                                0          1
   BAD_OVERRIDE                                    0          1
 
 activity                                         ms      calls
@@ -100,7 +100,7 @@ DUMMY_DERIVER_CONCURRENCY                         0          1
 IFACE_TRACKER                                     0          4
 LOCK_FINDER_TOPDOWN                               0          1
 LOCK_ORDER                                        0          1
-ARRAY_VS_SINGLETON_pass1                         16        191
+ARRAY_VS_SINGLETON_pass1                          0        191
 ASSERT_SIDE_EFFECT                                0          1
 BAD_ALLOC_ARITHMETIC                              0          1
 BAD_ALLOC_STRLEN                                  0          1
@@ -132,7 +132,7 @@ UNINIT_CTOR_pass1                                 0        191
 UNINTENDED_INTEGER_DIVISION                       0          1
 UNREACHABLE                                       0          1
 UNUSED_VALUE                                      0          1
-FUNCTION_METRICS                                 16        188
+FUNCTION_METRICS                                  0        188
 RELAX_ACCESS_DBUFFER                              0          1
 RELAX_ALLOC                                       0        188
 RELAX_BUFFER_SIZE                                 0          1
@@ -164,14 +164,14 @@ DUMMY_DERIVER_EXCEPTIONS                          0          1
 CHECKED_RETURN_STAT                               0          1
 ADDR_ARG_STAT                                     0          1
 BAD_OVERRIDE                                      0          1
-sequential initialization                       203          1
+sequential initialization                       156          1
 Looking for translation units                     0          1
-Computing links for translation units            47          1
-xfer symbol cache                                 0          1
-Computing virtual overrides                      31          1
-Computing callgraph                              31          1
-Topologically sorting functions                  16          1
-Computing node costs                             16          1
-Analysis run                                   3276          1
-loadFromEmit                                    171        565
-types/warning pass                               15          1
+Computing links for translation units            46          1
+xfer symbol cache                                16          1
+Computing virtual overrides                      16          1
+Computing callgraph                              16          1
+Topologically sorting functions                   0          1
+Computing node costs                              0          1
+Analysis run                                   2839          1
+loadFromEmit                                    186        565
+types/warning pass                                0          1

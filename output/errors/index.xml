@@ -14,8 +14,8 @@
 <error>
 <checker>NO_EFFECT</checker>
 <file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
-<function>_ZNKSt5ctypeIwE11_Do_widen_sEPKcS2_Pwj</function>
-<unmangled_function>std::ctype&lt;wchar_t&gt;::_Do_widen_s(char const *, char const *, wchar_t *, unsigned int) const</unmangled_function>
+<function>_ZNKSt5ctypeIwE12_Do_narrow_sEPKwS2_cPcj</function>
+<unmangled_function>std::ctype&lt;wchar_t&gt;::_Do_narrow_s(wchar_t const *, wchar_t const *, char, char *, unsigned int) const</unmangled_function>
 <status>Unclassified</status>
 <num>2</num>
 <home>1/2xlocale</home>
@@ -23,8 +23,8 @@
 <error>
 <checker>NO_EFFECT</checker>
 <file>/Microsoft Visual Studio 9.0/VC/include/xlocale</file>
-<function>_ZNKSt5ctypeIwE12_Do_narrow_sEPKwS2_cPcj</function>
-<unmangled_function>std::ctype&lt;wchar_t&gt;::_Do_narrow_s(wchar_t const *, wchar_t const *, char, char *, unsigned int) const</unmangled_function>
+<function>_ZNKSt5ctypeIwE11_Do_widen_sEPKcS2_Pwj</function>
+<unmangled_function>std::ctype&lt;wchar_t&gt;::_Do_widen_s(char const *, char const *, wchar_t *, unsigned int) const</unmangled_function>
 <status>Unclassified</status>
 <num>3</num>
 <home>1/3xlocale</home>

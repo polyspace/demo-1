@@ -5,7 +5,7 @@
 <metrics>
     <metric>
         <name>time</name>
-        <value>88</value>
+        <value>25</value>
     </metric>
     <metric>
         <name>args</name>

@@ -13,7 +13,7 @@
         "OVERRUN:report_underrun"
       ]
     },
-    time : 5,
+    time : 4,
     "line-counts" : {
       "C/C++" : {
         "blank-lines" : 38710,
@@ -63,7 +63,7 @@
       },
       cpp : {
         files : 1,
-        "total-bytes" : 209
+        "total-bytes" : 211
       },
       h : {
         files : 99,
@@ -79,8 +79,8 @@
     "short-platform" : "win64",
     extver : "8.7.1",
     intver : "a59584cec3 p-lodi1-push-28091.44.570",
-    "aw-peak-mem-bytes" : 23494656,
-    "am+aw-peak-mem-bytes" : 48799744,
+    "aw-peak-mem-bytes" : 20754432,
+    "am+aw-peak-mem-bytes" : 42729472,
     "bytecode-functions" : 0,
     concurrency : true,
     cxx : true,
@@ -90,8 +90,8 @@
     force : false,
     "function-metrics-count" : 187,
     "functions-analyzed" : 187,
-    "incremental-hits" : 0,
-    "incremental-misses" : 565,
+    "incremental-hits" : 560,
+    "incremental-misses" : 5,
     "dyncg-sites-resolved" : 0,
     "dyncg-sites-total" : 0,
     "max-mem" : 512,
@@ -99,7 +99,7 @@
     "pathout-count" : 0,
     paths : 5000,
     "paths-analyzed" : 885,
-    "peak-mem-bytes" : 28934144,
+    "peak-mem-bytes" : 28262400,
     security : true,
     "tus-count" : 1,
     "web-app-archives" : 0,
