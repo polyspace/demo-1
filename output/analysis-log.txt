@@ -7,7 +7,7 @@ cmdline:   { name: "checker-option", args: [ "OVERRUN:report_underrun:yes" ] },
 cmdline:   { name: "jobs", args: [ "auto" ] },
 cmdline:   { name: "config", args: [ "D:\\Coverity\\Coverity Static Analysis\\config\\coverity_config.xml" ] },
 cmdline: ]
-startup: am_pid=4040
+startup: am_pid=6804
 startup: detected platform: Windows 7 Ultimate, 64-bit, Service Pack 1 (build 7601)
 startup: target platform: win64
 startup: Detected 4 logical cpus
@@ -15,9 +15,9 @@ startup: Detected 2 cpu cores
 startup: host name: LEE
 startup: user name: SYSTEM
 startup: Analysis version: 8.7.1 (a59584cec3 p-lodi1-push-28091.44.570)
-startup: temp directory: C:/Windows/TEMP/cov-SYSTEM/823c1bf3cefec1c5ec81de171cedcc63
+startup: temp directory: C:/Windows/TEMP/cov-SYSTEM/008d31a24188594327cb220821c54f33
 startup: enable_constraint_fpp=1
-startup: current time: 2018-Jan-21 21:07:06
+startup: current time: 2018-Jan-21 21:13:45
 startup: Detected amount of memory: 16190804kb
 startup: Limiting memory to 14571723kb
 wlink: Skipping web-app linking, no archives
@@ -29,14 +29,10 @@ emitdb: callgraph.cpp:2767 11000000
 dyncg: N/A or no data
 directives: Optimizing dataflow configuration
 general: Starting analysis
-dm-access-lib: AM listening for DM at 127.0.0.1:49712
-dm-access-lib: AM starting DM with command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 49712 --log-file D:/Projects/demo-1/output/distributor.log -j 4 --AW-timeout 36000 D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
-dm-access-lib: DM started: dm_pid=2940
-dm-access-lib: AM got connection from DM: (local) 127.0.0.1:49712 - 127.0.0.1:49713 (remote)
-wurlegend: <phase><n> dw_id wup_bytes dw_ms wur_bytes aw_ms [mem] paths (rest are labeled)
-wur: stat12 2 5868 780 510 16 mem=19099648 max=20738048 23 nr=2 n: batch 12
-wur: conc241 1 3964 734 251 16 mem=19116032 max=20754432 2 n: main in TU 1
-wur: gen12 1 18055 78 73 62 91 nr=2 n: batch 12
+dm-access-lib: AM listening for DM at 127.0.0.1:58701
+dm-access-lib: AM starting DM with command line: D:/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 58701 --log-file D:/Projects/demo-1/output/distributor.log -j 4 --AW-timeout 36000 D:\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=3628
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:58701 - 127.0.0.1:58702 (remote)
 analysis: 0ms: beginning TU reports pass
 summary: Analysis summary report:
 summary: ------------------------
@@ -45,7 +41,7 @@ summary: Total LoC input to cov-analyze : 133251
 summary: Functions analyzed             : 187
 summary: Classes/structs analyzed       : 167
 summary: Paths analyzed                 : 885
-summary: Time taken by analysis         : 00:00:04
+summary: Time taken by analysis         : 00:00:02
 summary: Defect occurrences found       : 7 Total
 summary:                                  1 DELETE_VOID
 summary:                                  6 NO_EFFECT
@@ -53,6 +49,6 @@ summary: Number of functions: 242
 summary: out_of_memory count: 0
 summary: paths_exceeded count: 0
 summary: recoverable failures: 0
-mem: AM peak mem bytes: 28262400
+mem: AM peak mem bytes: 28176384
 assert: suppressed asserts: workers=0, master=0
 failures: recoverable failures: workers=0, master=0

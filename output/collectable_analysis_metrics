@@ -13,7 +13,7 @@
         "OVERRUN:report_underrun"
       ]
     },
-    time : 4,
+    time : 2,
     "line-counts" : {
       "C/C++" : {
         "blank-lines" : 38710,
@@ -79,8 +79,8 @@
     "short-platform" : "win64",
     extver : "8.7.1",
     intver : "a59584cec3 p-lodi1-push-28091.44.570",
-    "aw-peak-mem-bytes" : 20754432,
-    "am+aw-peak-mem-bytes" : 42729472,
+    "aw-peak-mem-bytes" : 0,
+    "am+aw-peak-mem-bytes" : 0,
     "bytecode-functions" : 0,
     concurrency : true,
     cxx : true,
@@ -90,8 +90,8 @@
     force : false,
     "function-metrics-count" : 187,
     "functions-analyzed" : 187,
-    "incremental-hits" : 560,
-    "incremental-misses" : 5,
+    "incremental-hits" : 565,
+    "incremental-misses" : 0,
     "dyncg-sites-resolved" : 0,
     "dyncg-sites-total" : 0,
     "max-mem" : 512,
@@ -99,7 +99,7 @@
     "pathout-count" : 0,
     paths : 5000,
     "paths-analyzed" : 885,
-    "peak-mem-bytes" : 28262400,
+    "peak-mem-bytes" : 28176384,
     security : true,
     "tus-count" : 1,
     "web-app-archives" : 0,
@@ -115,7 +115,7 @@
     "matching-input-files" : -1
   },
   "cov-build" : {
-    "build-successes" : 1,
+    "build-successes" : 0,
     "builds-with-recoverable-errors" : 0,
     "build-failures" : 0,
     "cs-webapps-detected" : 0,

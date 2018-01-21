@@ -6,7 +6,7 @@ Total LoC input to cov-analyze : 133251
 Functions analyzed             : 187
 Classes/structs analyzed       : 167
 Paths analyzed                 : 885
-Time taken by analysis         : 00:00:04
+Time taken by analysis         : 00:00:02
 Defect occurrences found       : 7 Total
                                  1 DELETE_VOID
                                  6 NO_EFFECT
